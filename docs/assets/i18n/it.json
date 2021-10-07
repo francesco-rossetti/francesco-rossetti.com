@@ -1,0 +1,139 @@
+{
+  "primeng": {
+    "startsWith": "Inizia con",
+    "contains": "Contiene",
+    "notContains": "Non contiene",
+    "endsWith": "Finisce con",
+    "equals": "Uguale",
+    "notEquals": "Diverso",
+    "noFilter": "Senza filtri",
+    "lt": "Minore",
+    "lte": "Minore o uguale",
+    "gt": "Maggiore",
+    "gte": "Maggiore o uguale",
+    "is": "È",
+    "isNot": "Non è",
+    "before": "Prima",
+    "after": "Dopo",
+    "clear": "Pulisci",
+    "apply": "Applica",
+    "matchAll": "Corrisponde a tutti gli elementi",
+    "matchAny": "Corrisponde a uno qualsiasi degli elementi",
+    "addRule": "Aggiungi Regola",
+    "removeRule": "Rimuovi Regola",
+    "accept": "Sì",
+    "reject": "No",
+    "choose": "Scegli",
+    "upload": "Carica",
+    "cancel": "Annulla",
+    "dayNames": ["Domenica", "Lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì", "Sabato"],
+    "dayNamesShort": ["DOM", "LUN", "MAR", "MER", "GIO", "VEN", "SAB"],
+    "dayNamesMin": ["DO","LU","MA","ME","GIO","VE","SA"],
+    "monthNames": ["Gennaio","Febbraio","Marzo","Aprile","Maggio","Giugno","Luglio","Agosto","Settembre","Ottobre","Novembre","Dicembre"],
+    "monthNamesShort": ["GEN", "FEB", "MAR", "APR", "MAG", "GIU","LUG", "AGO", "SET", "OTT", "NOV", "DIC"],
+    "today": "Oggi",
+    "weekHeader": "Wk",
+    "weak": "Debole",
+    "medium": "Media",
+    "strong": "Forte",
+    "passwordPrompt": "Inserisci una password",
+    "emptyMessage": "Nessun risultato trovato",
+    "emptyFilterMessage": "Nessun risultato trovato"
+  },
+  "intro": {
+    "sitename": "Francesco Rossetti",
+    "sub": "Sviluppatore Full Stack"
+  },
+  "menuItems": {
+    "home": "Home",
+    "skills": "Skills",
+    "certification": "Certificazioni",
+    "education": "Educazione",
+    "experience": "Esperienze",
+    "projects": "Progetti",
+    "privacypolicy": "Privacy Policy"
+  },
+  "skills": {
+    "aboutme": "SU DI ME",
+    "skills": "SKILLS",
+    "sub": "LINGUAGGI DI PROGRAMMAZIONE E FRAMEWORK",
+
+    "angular": "Imparato da autodidatta. Utilizzato per la programmazione frontend dove ho potuto apprezzare le sue ampie funzionalità e la sua modularità. Conosco abbastanza bene Typescript.",
+    "csharp": "Linguaggio di programmazione appreso a scuola. Conosco come applicare le funzionalità del linguaggio come lambda, delegates, classi, interfacce, ereditarietà e integrazione con Entity Framework per aggiungere una o più basi di dati all'interno di un progetto. L'ho usato per la programmazione Console, UWP, WPF, Web e Mobile.",
+    "flutter": "Imparato da autodidatta. Framework per la scrittura di potenti applicazioni su piattaforme Android, iOS e Web. L'ho apprezzato per la sua facilità di apprendimento, la sua modularità e per la community molto attiva che sviluppa ogni tipo di estensione per soddisfare ogni esigenza.",
+    "laravel": "Imparato da autodidatta. Utilizzato sia nella sua componente di frontend che nella sua componente di backend con lo sviluppo di Web API. Ho apprezzato la sua semplicità nelle operazioni di database e allo stesso tempo la sua struttura completa e sicura nelle fasi di autenticazione.",
+    "sql": "L'ho usato nelle seguenti varianti: MySQL, Microsoft SQL Server e SQLite. Conosco i componenti chiave per la scrittura della struttura di tabelle dato uno schema Entity Relationship (ER) nonché inserimenti, aggiornamenti ed eliminazioni di dati all'interno delle stesse. Conosco come creare views e stored procedures.",
+    "tensorflow": "Imparato da autodidatta. Questa libreria ho potuto utilizzarla nella sua versione chiamata \"Teachable Machine\" sviluppata da Google. La sto ancora studiando per ampliare le mie conoscenze.",
+    "unity": "Framework per lo sviluppo di giochi che ho imparato a scuola. L'ho usato per alcuni progetti scolastici."
+  },
+  "certification": {
+    "aboutme": "SU DI ME",
+    "certification": "CERTIFICAZIONI",
+    "sub": "CERIFICATI COMPLEMENTARI",
+    "learnmore": "Scopri di più",
+
+    "ai9001": "CERTIFICAZIONE MICROSOFT",
+    "ai9002": "Aprile 2021",
+    "ai9003": "AI-900: MICROSOFT AZURE AI FUNDAMENTALS"
+  },
+  "education": {
+    "aboutme": "SU DI ME",
+    "education": "EDUCAZIONE",
+    "sub": "IL MIO PERCORSO DI STUDI",
+    "learnmore": "Scopri di più",
+
+    "unipr": "LAUREA TRIENNALE IN INGEGNERIA INFORMATICA",
+    "isii": "DIPLOMA CON LA QUALIFICA DI CAPOTECNICO IN INFORMATICA"
+  },
+  "experience": {
+    "aboutme": "SU DI ME",
+    "experience": "ESPERIENZE",
+    "sub": "LE MIE ESPERIENZE LAVORATIVE",
+    "learnmore": "Scopri di più",
+
+    "brainfarm1": "TECNICO DI HELP DESK",
+    "brainfarm2": "Giugno 2021 - Ottobre 2021",
+    "brainfarm3": "Attività di assistenza tecnica di primo livello presso la Provincia di Piacenza.",
+
+    "latitudo1": "TIROCINIO",
+    "latitudo2": "Aprile 2021 - Giugno 2021",
+    "latitudo3": "Creazione di una vista personalizzata per la suite Microsoft Power BI utilizzando le API fornite e React.",
+
+    "sld1": "SVILUPPATORE WEB",
+    "sld2": "Dicembre 2019 - Settembre 2020",
+    "sld3": "Attività di creazione di un sito web per un'impresa sportiva. Il progetto è stato realizzato tramite il tema WordPress, Avada e i plugin grafici. Il progetto è stato svolto come attività secondaria durante gli studi universitari.",
+
+    "hs1": "SVILUPPATORE FULL STACK",
+    "hs2": "Luglio 2018 - Settembre 2018",
+    "hs3": "Attività di creazione di piattaforme CRM personalizzate per il workflow di vari clienti. Sono stati utilizzati diversi linguaggi tra cui C# nella sua componente web (ASP.NET con EXT.NET), mobile (XAMARIN) e SQL.",
+
+    "bbmolinetto1": "SVILUPPATORE WEB",
+    "bbmolinetto2": "Aprile 2018 - Giugno 2018",
+    "bbmolinetto3": "Attività di creazione di un sito vetrina per un'attività alberghiera locale. Il progetto è stato realizzato tramite WordPress ed Elementor con diversi plugin grafici.",
+
+    "amada1": "TIROCINIO",
+    "amada2": "Maggio 2017 - Giugno 2017",
+    "amada3": "Realizzazione di una piattaforma web (utilizzando C#) per gestire correttamente i ricambi per i prodotti dell'azienda."
+  },
+  "projects": {
+    "works":"I MIEI LAVORI",
+    "projects": "PROGETTI",
+    "sub": "LE MIE ATTIVITÀ NEL TEMPO LIBERO",
+    "learnmore": "Scopri di più",
+
+    "bdc1": "SVILUPPO MOBILE",
+    "bdc2": "Attività di realizzazione di un'applicazione mobile sia per iOS che per Android. L'applicazione consente agli abitanti della Città di Collecchio di segnalare all'amministrazione pericoli ai danni di persone affette da disabilità, affinché intervenga per sistemare il problema. Abbiamo utilizzato il framework Flutter e vista la necessità di una categorizzazione automatica dei rischi, la visione artificiale è stata implementata utilizzando un modello TensorFlow Lite. Il progetto è stato avviato attraverso un bando in collaborazione con l'Università di Parma.",
+
+    "agro1": "SVILUPPO MOBILE",
+    "agro2": "Progetto sviluppato utilizzando l'ultimo framework di casa Google chiamato Flutter. Il progetto consiste nel rifacimento di un'applicazione che consente agli agricoltori di verificare se una pianta è malata, di quale malattia si tratta e quali sono le possibili cure.",
+
+    "pcar1": "SVILUPPO MOBILE",
+    "pcar2": "Progetto sviluppato in ambiente scolastico. L'applicazione è stata progettata per i turisti. Attraverso l'utilizzo di Google Earth siamo riusciti ad ottenere modelli 3D dei più importanti monumenti della città. Sfruttando poi Unity, Vuforia e una mappa appositamente creata, abbiamo potuto mostrare agli utenti i modelli precedentemente creati e alcune note storiche dei monumenti in questione.",
+
+    "ar201": "SVILUPPO WEB",
+    "ar202": "Progetto sviluppato in ambiente scolastico per il bando lanciato dalla Fondazione San Paolo di Torino nel corso del 2017. Questo progetto è partito perché si è verificata la necessità di recuperare il vecchio sito web del progetto \"ARMATAMENTE\" che è andato perduto. Tra i linguaggi di programmazione ci sono HTML + Bootstrap, JQuery e CSS.",
+
+    "museo3d1": "SVILUPPO VIDEOGIOCHI",
+    "museo3d2": "Progetto sviluppato in ambito scolastico per il bando \"I linguaggi della Contemporaneità\" lanciato dalla Fondazione San Paolo di Torino. Questo progetto è stato definito \"un progetto di straordinaria originalità per gentile concessione di una serie di innovazioni informatiche al servizio di una solida e documentata argomentazione storiografica\". Questo progetto ha avuto anche riconoscimenti internazionali tra cui la rete internazionale EUSTORY. Il progetto consiste nella realizzazione di un ambiente 3D completamente percorribile nel quale, attraverso interazioni, è possible visualizzare contenuti storici relativi al bando sopracitato. Per quanto riguarda la parte tecnica si è fatto uso di Unity come framework e C# come linguaggio di programmazione."
+  }
+}

@@ -1,0 +1,32 @@
+@import "primeflex/primeflex.css";
+@import "https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800,900&amp;display=swap";
+
+html, body {
+  background-color: var(--surface-a);
+  font-family: 'Rubik';
+}
+
+.p-button-rounded {
+  margin-right: .5rem !important;
+}
+
+@media (max-width: 767px) {
+  .hidden-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .hidden-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hidden-md {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  .hidden-lg {
+    display: none !important;
+  }
+}
