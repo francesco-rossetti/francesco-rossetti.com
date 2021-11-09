@@ -45,7 +45,8 @@ export class HomeComponent implements OnInit {
     this.translateService.get('certification').subscribe(
       translations => {
         this.certification = [
-          { title: translations.ai9001, dates: translations.ai9002, notes: translations.ai9003, url: 'https://docs.microsoft.com/it-it/learn/certifications/exams/ai-900' }
+          { title: translations.sc9001, dates: translations.sc9002, notes: translations.sc9003, url: translations.sc900url },
+          { title: translations.ai9001, dates: translations.ai9002, notes: translations.ai9003, url: translations.ai900url }
         ];
       }
     );

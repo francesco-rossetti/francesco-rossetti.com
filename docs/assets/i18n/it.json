@@ -74,7 +74,13 @@
 
     "ai9001": "CERTIFICAZIONE MICROSOFT",
     "ai9002": "Aprile 2021",
-    "ai9003": "AI-900: MICROSOFT AZURE AI FUNDAMENTALS"
+    "ai900url": "https://docs.microsoft.com/it-it/learn/certifications/exams/ai-900",
+    "ai9003": "AI-900: Microsoft Azure AI Fundamentals",
+
+    "sc9001": "CERTIFICAZIONE MICROSOFT",
+    "sc9002": "Novembre 2021",
+    "sc900url": "https://docs.microsoft.com/it-it/learn/certifications/exams/sc-900",
+    "sc9003": "SC-900: Microsoft Security, Compliance, and Identity Fundamentals"
   },
   "education": {
     "aboutme": "SU DI ME",
