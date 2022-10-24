@@ -16,8 +16,9 @@
 
 /***************************************************************************************************
  * BROWSER POLYFILLS
+ *
+ * import 'core-js';  // Run `npm install --save classlist.js`.  // Run `npm install --save web-animations-js`.
  */
- import 'core-js';  // Run `npm install --save classlist.js`.  // Run `npm install --save web-animations-js`.
 
 /**
  * By default, zone.js will patch all possible macroTask and DomEvents
@@ -38,9 +39,8 @@
  *
  *  in IE/Edge developer tools, the addEventListener will also be wrapped by zone.js
  *  with the following flag, it will bypass `zone.js` patch for IE/Edge
+ * (window as any).__Zone_enable_cross_context_check = true;
  */
- (window as any).__Zone_enable_cross_context_check = true;
-
 
 /***************************************************************************************************
  * Zone JS is required by default for Angular itself.

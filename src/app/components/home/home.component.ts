@@ -64,11 +64,11 @@ export class HomeComponent implements OnInit {
     this.translateService.get('experience').subscribe(
       translations => {
         this.events = [
+          { title: 'LA BALERA DELL\' ORTICA', qualification: translations.balera1, dates: translations.balera2, description: translations.balera3, color: '#FCFCFC' },
           { title: 'BRAINFARM', qualification: translations.brainfarm1, dates: translations.brainfarm2, description: translations.brainfarm3, color: '#00FFAA' },
           { title: 'LATITUDO S.R.L.', qualification: translations.latitudo1, dates: translations.latitudo2, description: translations.latitudo3, color: '#00BFC5' },
           { title: 'STUDIO LAROSA DANCE', qualification: translations.sld1, dates: translations.sld2, description: translations.sld3, color: '#FFBB00' },
           { title: 'H&S QUALITÀ NEL SOFTWARE S.P.A.', qualification: translations.hs1, dates: translations.hs2, description: translations.hs3, color: '#0A4BFF' },
-          { title: 'B&B MOLINETTO', qualification: translations.bbmolinetto1, dates: translations.bbmolinetto2, description: translations.bbmolinetto3, color: '#1FE704' },
           { title: 'AMADA ITALIA', qualification: translations.amada1, dates: translations.amada2, description: translations.amada3, color: '#FF0000' },
         ];
       }
@@ -94,8 +94,6 @@ export class HomeComponent implements OnInit {
       window.open('https://play.google.com/store/apps/dev?id=6543884814941375849', '_blank');
     } else if (where === 'link-in') {
       window.open('https://www.linkedin.com/in/francesco-rossetti-9b1243167/', '_blank');
-    } else {
-      window.open(where);
     }
   }
 }

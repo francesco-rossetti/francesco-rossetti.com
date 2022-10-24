@@ -113,7 +113,6 @@
       }
     }
   },
-  "defaultProject": "francescorossetti-dev",
   "cli": {
     "analytics": false
   }
