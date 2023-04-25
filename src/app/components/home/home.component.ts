@@ -45,6 +45,7 @@ export class HomeComponent implements OnInit {
     this.translateService.get('certification').subscribe(
       translations => {
         this.certification = [
+          { title: translations.az9001, dates: translations.az9002, notes: translations.az9003, url: translations.az900url },
           { title: translations.sc9001, dates: translations.sc9002, notes: translations.sc9003, url: translations.sc900url },
           { title: translations.ai9001, dates: translations.ai9002, notes: translations.ai9003, url: translations.ai900url }
         ];
@@ -54,8 +55,8 @@ export class HomeComponent implements OnInit {
     this.translateService.get('education').subscribe(
       translations => {
         this.education = [
-          { title: 'Università degli Studi di Parma', period: '2018 - ', detail: translations.unipr },
-          { title: 'ISII G. Marconi', period: '2013 - 2018', detail: translations.isii }
+          { title: 'Università degli Studi di Parma', period: '2018 - 2023', detail: translations.unipr, abstract: undefined },
+          { title: 'ISII G. Marconi', period: '2013 - 2018', detail: translations.isii, abstract: undefined }
         ];
       }
     );
@@ -94,6 +95,8 @@ export class HomeComponent implements OnInit {
       window.open('https://play.google.com/store/apps/dev?id=6543884814941375849', '_blank');
     } else if (where === 'link-in') {
       window.open('https://www.linkedin.com/in/francesco-rossetti-9b1243167/', '_blank');
+    } else {
+      window.open(where);
     }
   }
 }

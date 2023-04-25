@@ -74,19 +74,25 @@
 
     "ai9001": "CERTIFICAZIONE MICROSOFT",
     "ai9002": "Aprile 2021",
-    "ai900url": "https://docs.microsoft.com/it-it/learn/certifications/exams/ai-900",
+    "ai900url": "https://learn.microsoft.com/it-it/certifications/exams/ai-900",
     "ai9003": "AI-900: Microsoft Azure AI Fundamentals",
 
     "sc9001": "CERTIFICAZIONE MICROSOFT",
     "sc9002": "Novembre 2021",
-    "sc900url": "https://docs.microsoft.com/it-it/learn/certifications/exams/sc-900",
-    "sc9003": "SC-900: Microsoft Security, Compliance, and Identity Fundamentals"
+    "sc900url": "https://learn.microsoft.com/it-it/certifications/exams/sc-900",
+    "sc9003": "SC-900: Microsoft Security, Compliance, and Identity Fundamentals",
+
+    "az9001": "CERTIFICAZIONE MICROSOFT",
+    "az9002": "Marzo 2023",
+    "az900url": "https://learn.microsoft.com/it-it/certifications/exams/az-900",
+    "az9003": "AZ-900: Azure Fundamentals"
   },
   "education": {
     "aboutme": "SU DI ME",
     "education": "EDUCAZIONE",
     "sub": "IL MIO PERCORSO DI STUDI",
     "learnmore": "Scopri di più",
+    "abstract": "Riassunto Tesi",
 
     "unipr": "LAUREA TRIENNALE IN INGEGNERIA INFORMATICA",
     "isii": "DIPLOMA CON LA QUALIFICA DI CAPOTECNICO IN INFORMATICA"

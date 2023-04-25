@@ -6,7 +6,6 @@ import { filter } from 'rxjs/operators';
 import { PrimeNGConfig } from 'primeng/api';
 import { MenuItem } from 'primeng/api';
 
-import cssVars from 'css-vars-ponyfill';
 import { TranslateService } from '@ngx-translate/core';
 
 declare var gtag: any;
@@ -23,8 +22,6 @@ export class AppComponent implements OnInit {
   constructor(private primeNGConfig: PrimeNGConfig,
     private translateService: TranslateService,
     private router: Router) {
-    cssVars();
-
     const navEndEvents = router.events.pipe(
       filter(event => event instanceof NavigationEnd),
     );

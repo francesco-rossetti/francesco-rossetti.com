@@ -83,6 +83,9 @@
       <div style="margin-left: 20px; margin-right: 20px; margin-bottom: 20px;" *ngFor="let edu of education">
         <p-card [header]="edu.title" [subheader]="edu.period">
           {{edu.detail}}
+          <ng-template pTemplate="footer">
+            <button *ngIf="edu.abstract" pButton pRipple type="button" (click)="connectTo(edu.abstract)" class="p-button-rounded p-button-success">{{ 'education.abstract' | translate }}</button>
+          </ng-template>
         </p-card>
       </div>
     </div>

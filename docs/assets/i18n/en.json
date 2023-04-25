@@ -75,19 +75,25 @@
 
     "ai9001": "MICROSOFT CERTIFICATION",
     "ai9002": "April 2021",
-    "ai900url": "https://docs.microsoft.com/en-us/learn/certifications/exams/ai-900",
+    "ai900url": "https://docs.microsoft.com/en-us/certifications/exams/ai-900",
     "ai9003": "AI-900: Microsoft Azure AI Fundamentals",
 
     "sc9001": "MICROSOFT CERTIFICATION",
     "sc9002": "November 2021",
-    "sc900url": "https://docs.microsoft.com/en-us/learn/certifications/exams/sc-900",
-    "sc9003": "SC-900: Microsoft Security, Compliance, and Identity Fundamentals"
+    "sc900url": "https://docs.microsoft.com/en-us/certifications/exams/sc-900",
+    "sc9003": "SC-900: Microsoft Security, Compliance, and Identity Fundamentals",
+
+    "az9001": "MICROSOFT CERTIFICATION",
+    "az9002": "March 2023",
+    "az900url": "https://docs.microsoft.com/en-us/certifications/exams/az-900",
+    "az9003": "AZ-900: Azure Fundamentals"
   },
   "education": {
     "aboutme": "ABOUT ME",
     "education": "EDUCATION",
     "sub": "MY OWN EDUCATIONAL BACKGROUND",
     "learnmore": "Learn More",
+    "abstract": "Thesis Abstract",
 
     "unipr": "BACHELOR'S DEGREE IN COMPUTER ENGINEERING",
     "isii": "HIGH SCHOOL DIPLOMA IN COMPUTER SCIENCE"
