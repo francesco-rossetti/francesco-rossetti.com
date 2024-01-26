@@ -79,9 +79,9 @@ export class HomeComponent implements OnInit {
       translations => {
         this.projects = [
           { title: 'BARRIERE DI COLLECCHIO', role: translations.bdc1, link: undefined, description: translations.bdc2 },
-          { title: 'AGRONOMO', role: translations.agro1, link: 'https://github.com/francescorossetti/Agronomo', description: translations.agro2 },
-          { title: 'PIACENZA AR', role: translations.pcar1, link: 'https://github.com/francescorossetti/PiacenzaProjectAR', description: translations.pcar2 },
-          { title: 'ARMATAMENTE 2.0', role: translations.ar201, link: 'https://github.com/francescorossetti/Armatamente2', description: translations.ar202 },
+          { title: 'AGRONOMO', role: translations.agro1, link: 'https://github.com/francesco-rossetti/Agronomo', description: translations.agro2 },
+          { title: 'PIACENZA AR', role: translations.pcar1, link: 'https://github.com/francesco-rossetti/PiacenzaProjectAR', description: translations.pcar2 },
+          { title: 'ARMATAMENTE 2.0', role: translations.ar201, link: 'https://github.com/francesco-rossetti/Armatamente2', description: translations.ar202 },
           { title: 'MUSEO 3D', role: translations.museo3d1, link: 'http://armatamente.altervista.org/museo/', description: translations.museo3d2 }
         ];
       }
@@ -90,7 +90,7 @@ export class HomeComponent implements OnInit {
 
   connectTo(where: string): void {
     if (where === "github") {
-      window.open('https://github.com/francescorossetti', '_blank');
+      window.open('https://github.com/francesco-rossetti', '_blank');
     } else if (where === 'gplay') {
       window.open('https://play.google.com/store/apps/dev?id=6543884814941375849', '_blank');
     } else if (where === 'link-in') {

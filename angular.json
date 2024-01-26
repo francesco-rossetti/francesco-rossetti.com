@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "francescorossetti-dev": {
+    "francesco-rossetti-com": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -75,10 +75,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "francescorossetti-dev:build:production"
+              "buildTarget": "francesco-rossetti-com:build:production"
             },
             "development": {
-              "browserTarget": "francescorossetti-dev:build:development"
+              "buildTarget": "francesco-rossetti-com:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -86,7 +86,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "francescorossetti-dev:build"
+            "buildTarget": "francesco-rossetti-com:build"
           }
         },
         "test": {
