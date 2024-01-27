@@ -58,13 +58,12 @@
     "skills": "SKILLS",
     "sub": "LINGUAGGI DI PROGRAMMAZIONE E FRAMEWORK",
 
-    "angular": "Imparato da autodidatta. Utilizzato per la programmazione frontend dove ho potuto apprezzare le sue ampie funzionalità e la sua modularità. Conosco abbastanza bene Typescript.",
+    "angular": "Imparato da autodidatta. Ho utilizzato Angular nello sviluppo di applicazioni single page di complessità medio-alta. Sfruttando il potente framework di Angular, ho strutturato l'applicazione utilizzando i componenti, facilitando l'organizzazione e la manutenzione del codice. Il two-way data binding e i template dichiarativi di Angular hanno migliorato l'interattività e la reattività dell'applicazione. Il Router integrato di Angular ha semplificato la gestione della navigazione, consentendo transizioni fluide tra le diverse viste",
     "csharp": "Linguaggio di programmazione appreso a scuola. Conosco come applicare le funzionalità del linguaggio come lambda, delegates, classi, interfacce, ereditarietà e integrazione con Entity Framework per aggiungere una o più basi di dati all'interno di un progetto. L'ho usato per la programmazione Console, UWP, WPF, Web e Mobile.",
     "flutter": "Imparato da autodidatta. Framework per la scrittura di potenti applicazioni su piattaforme Android, iOS e Web. L'ho apprezzato per la sua facilità di apprendimento, la sua modularità e per la community molto attiva che sviluppa ogni tipo di estensione per soddisfare ogni esigenza.",
     "laravel": "Imparato da autodidatta. Utilizzato sia nella sua componente di frontend che nella sua componente di backend con lo sviluppo di Web API. Ho apprezzato la sua semplicità nelle operazioni di database e allo stesso tempo la sua struttura completa e sicura nelle fasi di autenticazione.",
     "sql": "L'ho usato nelle seguenti varianti: MySQL, Microsoft SQL Server e SQLite. Conosco i componenti chiave per la scrittura della struttura di tabelle dato uno schema Entity Relationship (ER) nonché inserimenti, aggiornamenti ed eliminazioni di dati all'interno delle stesse. Conosco come creare views e stored procedures.",
-    "tensorflow": "Imparato da autodidatta. Questa libreria ho potuto utilizzarla nella sua versione chiamata \"Teachable Machine\" sviluppata da Google. La sto ancora studiando per ampliare le mie conoscenze.",
-    "unity": "Framework per lo sviluppo di giochi che ho imparato a scuola. L'ho usato per alcuni progetti scolastici."
+    "vue": "Ho impiegato Vue.js nello sviluppo di applicazioni single page (SPA) di medio-alta complessità. Sfruttando la struttura modulare di Vue, ho organizzato il codice in componenti riutilizzabili, semplificando la gestione e la manutenzione del progetto. L'uso delle direttive di Vue e del sistema di binding dei dati ha reso l'interfaccia dinamica e reattiva, migliorando l'esperienza utente. Inoltre, l'integrazione di Vue Router ha facilitato la gestione della navigazione all'interno dell'applicazione, consentendo una transizione fluida tra le diverse viste"
   },
   "certification": {
     "aboutme": "SU DI ME",
@@ -102,6 +101,10 @@
     "experience": "ESPERIENZE",
     "sub": "LE MIE ESPERIENZE LAVORATIVE",
     "learnmore": "Scopri di più",
+
+    "latitudo2_1": "SVILUPPATORE WEB",
+    "latitudo2_2": "Aprile 2023",
+    "latitudo2_3": "",
 
     "balera1": "SVILUPPATORE WEB",
     "balera2": "Marzo 2022 - Settembre 2022",
