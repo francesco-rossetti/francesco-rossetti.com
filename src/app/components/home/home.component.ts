@@ -32,12 +32,11 @@ export class HomeComponent implements OnInit {
       translations => {
         this.skills = [
           { title: 'Angular', image: 'angular.png', description: translations.angular },
+          { title: 'Vue.js', image: 'vue.png', description: translations.vue },
           { title: 'C#', image: 'csharp.png', description: translations.csharp },
-          { title: 'Flutter', image: 'flutter.png', description: translations.flutter },
           { title: 'Laravel', image: 'laravel.png', description: translations.laravel },
           { title: 'SQL', image: 'sql.png', description: translations.sql },
-          { title: 'TensorFlow', image: 'tensorflow.png', description: translations.tensorflow },
-          { title: 'Unity', image: 'unity.png', description: translations.unity },
+          { title: 'Flutter', image: 'flutter.png', description: translations.flutter },
         ];
       }
     );
@@ -65,6 +64,7 @@ export class HomeComponent implements OnInit {
     this.translateService.get('experience').subscribe(
       translations => {
         this.events = [
+          { title: 'LATITUDO S.R.L.', qualification: translations.latitudo2_1, dates: translations.latitudo2_2, description: translations.latitudo2_3, color: '#00BFC5' },
           { title: 'LA BALERA DELL\' ORTICA', qualification: translations.balera1, dates: translations.balera2, description: translations.balera3, color: '#FCFCFC' },
           { title: 'BRAINFARM', qualification: translations.brainfarm1, dates: translations.brainfarm2, description: translations.brainfarm3, color: '#00FFAA' },
           { title: 'LATITUDO S.R.L.', qualification: translations.latitudo1, dates: translations.latitudo2, description: translations.latitudo3, color: '#00BFC5' },

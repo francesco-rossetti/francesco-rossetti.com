@@ -59,13 +59,12 @@
     "sub": "PROGRAMMING LANGUAGES & TOOLS",
     "learnmore": "Learn More",
 
-    "angular": "Self-taught. Used for frontend programming where I was able to appreciate its functionality and modularity. I know Typescript quite well.",
+    "angular": "Self-taught. I effectively employed Angular for the development of medium to high-complexity single page applications (SPA). Harnessing Angular's powerful framework, I structured the application using components, facilitating code organization and maintainability. Angular's two-way data binding and declarative templates enhanced the application's interactivity and responsiveness. The built-in Angular Router streamlined navigation, allowing smooth transitions between different views.",
     "csharp": "Language learned at school. I am familiar with lambdas, delegates, classes, interface, inheritance, and integration with Entity Framework. I've used it for Console, UWP, WPF, Web e Mobile programming.",
     "flutter": "Self-taught. Framework generally used for writing powerful applications on Android, iOS and Web platforms. I appreciated it for its ease of learning, its modularity and for the very active community that develops any kind of extension for every need.",
     "laravel": "Self-taught. Used both in its frontend and backend component with the development of Web APIs. I appreciated its simplicity in database operations and at the same time having a strong and secure structure in the authentication phases.",
     "sql": "I used it in the following variants: MySQL, Microsoft SQL Server and SQLite. I know the key components of writing tables given an entity-relationship schema as well as data insertions, updates and deletions. I know how to create views and stored procedures.",
-    "tensorflow": "Self-taught. Library that I was able to use in its version called \"Teachable Machine\" developed by Google. I am still studying it in order to expand my knowledge.",
-    "unity": "Game development framework I learned at school. I have used it for some educational projects."
+    "vue": "I successfully utilized Vue.js in developing medium to high-complexity single page applications (SPA). Leveraging Vue's modular structure, I organized the code into reusable components, streamlining project management and maintenance. The use of Vue's directives and data binding system made the interface dynamic and responsive, enhancing the user experience. Additionally, integrating Vue Router simplified navigation management within the application, ensuring a seamless transition between different views."
   },
   "certification": {
     "aboutme": "ABOUT ME",
@@ -103,6 +102,10 @@
     "experience": "EXPERIENCE",
     "sub": "MY PREVIOUS WORK EXPERIENCES",
     "learnmore": "Learn More",
+
+    "latitudo2_1": "WEB DEVELOPER",
+    "latitudo2_2": "April 2023",
+    "latitudo2_3": "",
 
     "balera1": "WEB DEVELOPER",
     "balera2": "March 2022 - September 2022",
