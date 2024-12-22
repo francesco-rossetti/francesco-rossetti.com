@@ -44,6 +44,7 @@ export class HomeComponent implements OnInit {
     this.translateService.get('certification').subscribe(
       translations => {
         this.certification = [
+          { title: translations.az1041, dates: translations.az1042, notes: translations.az1043, url: translations.az104url },
           { title: translations.az9001, dates: translations.az9002, notes: translations.az9003, url: translations.az900url },
           { title: translations.sc9001, dates: translations.sc9002, notes: translations.sc9003, url: translations.sc900url },
           { title: translations.ai9001, dates: translations.ai9002, notes: translations.ai9003, url: translations.ai900url }
