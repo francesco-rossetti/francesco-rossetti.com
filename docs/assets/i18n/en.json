@@ -72,20 +72,25 @@
     "sub": "MY EXTRA ATTESTATIONS",
     "learnmore": "Learn More",
 
-    "ai9001": "MICROSOFT CERTIFICATION",
-    "ai9002": "April 2021",
-    "ai900url": "https://docs.microsoft.com/en-us/certifications/exams/ai-900",
-    "ai9003": "AI-900: Microsoft Azure AI Fundamentals",
-
-    "sc9001": "MICROSOFT CERTIFICATION",
-    "sc9002": "November 2021",
-    "sc900url": "https://docs.microsoft.com/en-us/certifications/exams/sc-900",
-    "sc9003": "SC-900: Microsoft Security, Compliance, and Identity Fundamentals",
+    "az1041": "MICROSOFT CERTIFICATION",
+    "az1042": "March 2024",
+    "az104url": "https://learn.microsoft.com/it-it/credentials/certifications/azure-administrator/?practice-assessment-type=certification",
+    "az1043": "AZ-104: Azure Administrator Associate",
 
     "az9001": "MICROSOFT CERTIFICATION",
     "az9002": "March 2023",
-    "az900url": "https://docs.microsoft.com/en-us/certifications/exams/az-900",
-    "az9003": "AZ-900: Azure Fundamentals"
+    "az900url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/?practice-assessment-type=certification",
+    "az9003": "AZ-900: Azure Fundamentals",
+
+    "sc9001": "MICROSOFT CERTIFICATION",
+    "sc9002": "November 2021",
+    "sc900url": "https://learn.microsoft.com/en-us/credentials/certifications/security-compliance-and-identity-fundamentals/?practice-assessment-type=certification",
+    "sc9003": "SC-900: Microsoft Security, Compliance, and Identity Fundamentals",
+
+    "ai9001": "MICROSOFT CERTIFICATION",
+    "ai9002": "April 2021",
+    "ai900url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/?practice-assessment-type=certification",
+    "ai9003": "AI-900: Microsoft Azure AI Fundamentals"
   },
   "education": {
     "aboutme": "ABOUT ME",
