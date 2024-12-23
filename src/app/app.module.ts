@@ -1,55 +1,25 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
-import { AppPrimeNGModule } from './app-primeng.module';
-import { AppRoutingModule } from './app-routing.module';
-
-import { HttpClient, HttpClientModule } from '@angular/common/http';
-
-import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
-import { TranslateHttpLoader } from '@ngx-translate/http-loader';
-
-import {FaIconLibrary, FontAwesomeModule} from '@fortawesome/angular-fontawesome';
-
-import { fas } from '@fortawesome/free-solid-svg-icons';
-import { far } from '@fortawesome/free-regular-svg-icons';
-import { fab } from '@fortawesome/free-brands-svg-icons';
-
+import { HashLocationStrategy, LocationStrategy, PathLocationStrategy } from '@angular/common';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './components/home/home.component';
-import { PrivacyPolicyComponent } from './components/privacypolicy/privacypolicy.component';
-
-export function httpTranslateLoader(http: HttpClient): TranslateHttpLoader {
-  return new TranslateHttpLoader(http);
-}
+import { AppRoutingModule } from './app-routing.module';
+import { AppLayoutModule } from './layout/app.layout.module';
+import { NotfoundComponent } from './demo/components/notfound/notfound.component';
+import { ProductService } from './demo/service/product.service';
+import { CountryService } from './demo/service/country.service';
+import { CustomerService } from './demo/service/customer.service';
+import { EventService } from './demo/service/event.service';
+import { IconService } from './demo/service/icon.service';
+import { NodeService } from './demo/service/node.service';
+import { PhotoService } from './demo/service/photo.service';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HomeComponent,
-    PrivacyPolicyComponent
-  ],
-  imports: [
-    BrowserModule,
-    BrowserAnimationsModule,
-    AppRoutingModule,
-    AppPrimeNGModule,
-    FontAwesomeModule,
-    HttpClientModule,
-    TranslateModule.forRoot({
-      loader: {
-        provide: TranslateLoader,
-        useFactory: httpTranslateLoader,
-        deps: [HttpClient]
-      }
-    })
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    declarations: [AppComponent, NotfoundComponent],
+    imports: [AppRoutingModule, AppLayoutModule],
+    providers: [
+        { provide: LocationStrategy, useClass: PathLocationStrategy },
+        CountryService, CustomerService, EventService, IconService, NodeService,
+        PhotoService, ProductService
+    ],
+    bootstrap: [AppComponent],
 })
-export class AppModule {
-  constructor(private faLibrary: FaIconLibrary) {
-    this.faLibrary.addIconPacks(fas, far, fab);
-  }
-}
+export class AppModule { }

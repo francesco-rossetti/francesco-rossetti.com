@@ -1,35 +1,14 @@
-@import "primeflex/primeflex.css";
-@import "primeicons/primeicons.css";
-@import "primeng/resources/themes/vela-green/theme.css";
-@import "primeng/resources/primeng.min.css";
-@import "https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800,900&amp;display=swap";
+/* You can add global styles to this file, and also import other style files */
 
-html, body {
-  background-color: var(--surface-a);
-  font-family: 'Rubik';
-}
+$gutter: 1rem; //for primeflex grid system
+@import "assets/layout/styles/layout/layout.scss";
 
-.p-button-rounded {
-  margin-right: .5rem !important;
-}
+/* PrimeNG */
+@import "../node_modules/primeng/resources/primeng.min.css";
+@import "../node_modules/primeflex/primeflex.scss";
+@import "../node_modules/primeicons/primeicons.css";
 
-@media (max-width: 767px) {
-  .hidden-xs {
-    display: none !important;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .hidden-sm {
-    display: none !important;
-  }
-}
-@media (min-width: 992px) and (max-width: 1199px) {
-  .hidden-md {
-    display: none !important;
-  }
-}
-@media (min-width: 1200px) {
-  .hidden-lg {
-    display: none !important;
-  }
-}
+/* Demos */
+@import "assets/demo/styles/flags/flags.css";
+@import "assets/demo/styles/badges.scss";
+@import "assets/demo/styles/code.scss";
