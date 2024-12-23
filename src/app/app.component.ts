@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { PrimeNGConfig } from 'primeng/api';
+import { PrimeNG } from 'primeng/config';
+import { LayoutService } from './layout/service/app.layout.service';
 
 @Component({
     standalone: false,
@@ -8,9 +9,17 @@ import { PrimeNGConfig } from 'primeng/api';
 })
 export class AppComponent implements OnInit {
 
-    constructor(private primengConfig: PrimeNGConfig) { }
+    constructor(
+        private primengConfig: PrimeNG,
+        private layoutService: LayoutService
+    ) { }
 
     ngOnInit() {
-        this.primengConfig.ripple = true;
+        this.primengConfig.ripple.set(true);
+
+        this.layoutService.config.update((config) => ({
+            ...config,
+            theme: 'bootstrap4-dark-blue',
+        }));
     }
 }

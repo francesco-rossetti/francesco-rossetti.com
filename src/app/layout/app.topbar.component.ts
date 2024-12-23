@@ -1,9 +1,11 @@
 import { Component, ElementRef, ViewChild } from '@angular/core';
 import { MenuItem } from 'primeng/api';
 import { LayoutService } from "./service/app.layout.service";
+import { ButtonModule } from 'primeng/button';
 
 @Component({
-    standalone: false,
+    standalone: true,
+    imports: [ButtonModule],
     selector: 'app-topbar',
     templateUrl: './app.topbar.component.html'
 })

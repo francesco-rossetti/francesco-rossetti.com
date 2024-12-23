@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { InputTextModule } from 'primeng/inputtext';
+import { ButtonModule } from 'primeng/button';
 import { SidebarModule } from 'primeng/sidebar';
 import { BadgeModule } from 'primeng/badge';
 import { RadioButtonModule } from 'primeng/radiobutton';
@@ -18,23 +19,31 @@ import { AppConfigModule } from './config/config.module';
 import { AppSidebarComponent } from "./app.sidebar.component";
 import { AppLayoutComponent } from "./app.layout.component";
 
-@NgModule({ declarations: [
+@NgModule({
+    declarations: [
         AppMenuitemComponent,
-        AppTopBarComponent,
         AppFooterComponent,
         AppMenuComponent,
         AppSidebarComponent,
         AppLayoutComponent,
     ],
-    exports: [AppLayoutComponent], imports: [BrowserModule,
+    exports: [AppLayoutComponent],
+    imports: [
+        BrowserModule,
         FormsModule,
         BrowserAnimationsModule,
         InputTextModule,
+        ButtonModule,
         SidebarModule,
         BadgeModule,
         RadioButtonModule,
         InputSwitchModule,
         RippleModule,
         RouterModule,
-        AppConfigModule], providers: [provideHttpClient(withInterceptorsFromDi())] })
+        AppConfigModule,
+
+        AppTopBarComponent
+    ],
+    providers: [provideHttpClient(withInterceptorsFromDi())]
+})
 export class AppLayoutModule { }
