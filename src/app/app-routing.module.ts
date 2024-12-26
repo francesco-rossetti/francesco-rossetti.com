@@ -9,7 +9,7 @@ import { AppLayoutComponent } from "./layout/app.layout.component";
             {
                 path: '', component: AppLayoutComponent,
                 children: [
-                    { path: '', loadChildren: () => import('./components/base/base.module').then(m => m.BaseModule) }
+                    { path: '', loadChildren: () => import('./components/home/home.module').then(m => m.HomeModule) }
                 ]
             },
             { path: 'auth', loadChildren: () => import('./components/auth/auth.module').then(m => m.AuthModule) },
