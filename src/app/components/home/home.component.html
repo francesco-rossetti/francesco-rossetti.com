@@ -4,11 +4,11 @@
             <div style="margin-top: 10px;" class="grid grid-nogutter text-800">
                 <div class="col-12 md:col-6 p-6 text-center md:text-left flex align-items-center ">
                     <section class="marginHome" style="width: 100%;">
-                        <span class="block text-6xl font-bold mb-1">Francesco Rossetti</span>
-                        <div class="text-5xl text-primary font-bold mb-3">Full Stack Developer</div>
+                        <span class="block text-6xl font-bold mb-1">{{ 'home.title' | transloco }}</span>
+                        <div class="text-5xl text-primary font-bold mb-3">{{ 'home.subtitle' | transloco }}</div>
 
                         <div class="mt-5">
-                            <p-panelmenu [model]="items" styleClass="w-full md:w-80" />
+                            <p-panelmenu [model]="menu_data" [style]="{'width':'100%'}" [multiple]="true" />
                         </div>
                     </section>
                 </div>
