@@ -3,7 +3,7 @@
     "version": 1,
     "newProjectRoot": "projects",
     "projects": {
-        "francesco-rossetti-ng": {
+        "sakai-ng": {
             "projectType": "application",
             "schematics": {
                 "@schematics/angular:component": {
@@ -17,24 +17,24 @@
                 "build": {
                     "builder": "@angular-devkit/build-angular:application",
                     "options": {
-                        "outputPath": {
-                          "base": "dist/francesco-rossetti-ng"
-                        },
+                        "outputPath": "dist/sakai-ng",
                         "index": "src/index.html",
+                        "browser": "src/main.ts",
                         "polyfills": [
                             "zone.js"
                         ],
                         "tsConfig": "tsconfig.app.json",
                         "inlineStyleLanguage": "scss",
                         "assets": [
-                            "src/favicon.ico",
-                            "src/assets"
+                            {
+                                "glob": "**/*",
+                                "input": "public"
+                            }
                         ],
                         "styles": [
                             "src/styles.scss"
                         ],
-                        "scripts": [],
-                        "browser": "src/main.ts"
+                        "scripts": []
                     },
                     "configurations": {
                         "production": {
@@ -53,10 +53,9 @@
                             "outputHashing": "all"
                         },
                         "development": {
-                          "optimization": false,
+                            "optimization": false,
                             "extractLicenses": false,
-                            "sourceMap": true,
-                            "namedChunks": true
+                            "sourceMap": true
                         }
                     },
                     "defaultConfiguration": "production"
@@ -65,19 +64,16 @@
                     "builder": "@angular-devkit/build-angular:dev-server",
                     "configurations": {
                         "production": {
-                            "buildTarget": "francesco-rossetti-ng:build:production"
+                            "buildTarget": "sakai-ng:build:production"
                         },
                         "development": {
-                            "buildTarget": "francesco-rossetti-ng:build:development"
+                            "buildTarget": "sakai-ng:build:development"
                         }
                     },
                     "defaultConfiguration": "development"
                 },
                 "extract-i18n": {
-                    "builder": "@angular-devkit/build-angular:extract-i18n",
-                    "options": {
-                        "buildTarget": "francesco-rossetti-ng:build"
-                    }
+                    "builder": "@angular-devkit/build-angular:extract-i18n"
                 },
                 "test": {
                     "builder": "@angular-devkit/build-angular:karma",
@@ -87,11 +83,12 @@
                             "zone.js/testing"
                         ],
                         "tsConfig": "tsconfig.spec.json",
-                        "karmaConfig": "karma.conf.js",
                         "inlineStyleLanguage": "scss",
                         "assets": [
-                            "src/favicon.ico",
-                            "src/assets"
+                            {
+                                "glob": "**/*",
+                                "input": "public"
+                            }
                         ],
                         "styles": [
                             "src/styles.scss"
