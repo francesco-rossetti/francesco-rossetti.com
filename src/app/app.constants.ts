@@ -1,0 +1,2 @@
+export const I18N_BASE_PATH: string = './i18n';
+export const JSON_DATA_HOME: string = './domain/data/home.json';

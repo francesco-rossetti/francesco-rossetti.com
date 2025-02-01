@@ -1,7 +1,7 @@
 import { Routes } from '@angular/router';
-import { Empty } from './empty/empty';
+import { Main } from './main/main';
 
 export default [
-    { path: 'empty', component: Empty },
+    { path: '', component: Main },
     { path: '**', redirectTo: '/notfound' }
 ] as Routes;

@@ -1,0 +1,27 @@
+import { Component, OnInit } from '@angular/core';
+import { MenuItem } from 'primeng/api';
+import { PanelMenuModule } from 'primeng/panelmenu';
+import { AppDataService } from '../../layout/service/app.data.service';
+import { JSON_DATA_HOME } from '../../app.constants';
+import { TranslocoDirective, TranslocoService } from '@jsverse/transloco';
+import { RouterModule } from '@angular/router';
+
+@Component({
+    selector: 'app-main',
+    standalone: true,
+    imports: [TranslocoDirective, RouterModule, PanelMenuModule],
+    templateUrl: './main.html'
+})
+export class Main implements OnInit {
+    menu_data: MenuItem[] = [];
+
+    constructor (
+        private appDataService: AppDataService,
+        private translocoService: TranslocoService
+    ) {}
+
+    async ngOnInit(): Promise<void> {
+        const data = await this.appDataService.loadTranslatedJSONData(JSON_DATA_HOME);
+        this.menu_data = data.navigationMenuItems;
+    }
+}
