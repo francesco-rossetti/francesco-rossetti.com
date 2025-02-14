@@ -11,5 +11,20 @@
         "skills": "Skills",
         "certifications": "Certificazioni",
         "projects": "Progetti"
+    },
+
+    "education": {
+        "education": "EDUCAZIONE",
+        "sub": "IL MIO PERCORSO DI STUDI",
+
+        "unipr_institution": "Università degli Studi di Parma - Parma (PR)",
+        "unipr_degree": "LAUREA TRIENNALE IN INGEGNERIA INFORMATICA",
+        "unipr_period": "2018 - 2023",
+        "unipr_thesis_abstract": " ",
+
+        "isii_institution": "ISII G. Marconi - Piacenza (PC)",
+        "isii_degree": "DIPLOMA CON LA QUALIFICA DI CAPOTECNICO IN INFORMATICA",
+        "isii_period": "2013 - 2018",
+        "isii_thesis_abstract": " "
     }
 }

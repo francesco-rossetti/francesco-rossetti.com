@@ -11,5 +11,21 @@
         "skills": "Skills",
         "certifications": "Certifications",
         "projects": "Projects"
+    },
+
+
+    "education": {
+        "education": "EDUCATION",
+        "sub": "MY ACADEMIC BACKGROUND",
+
+        "unipr_institution": "Università degli Studi di Parma - Parma (PR)",
+        "unipr_degree": "BACHELOR'S DEGREE IN COMPUTER ENGINEERING",
+        "unipr_period": "2018 - 2023",
+        "unipr_thesis_abstract": "",
+
+        "isii_institution": "ISII G. Marconi - Piacenza (PC)",
+        "isii_degree": "HIGH SCHOOL DIPLOMA IN COMPUTER SCIENCE",
+        "isii_period": "2013 - 2018",
+        "isii_thesis_abstract": ""
     }
 }
