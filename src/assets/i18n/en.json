@@ -1,10 +1,15 @@
 {
-    "home.title": "Francesco Rossetti",
-    "home.subtitle": "Full Stack Developer",
+    "home": {
+        "title": "Francesco Rossetti",
+        "subtitle": "Full Stack Developer"
+    },
 
-    "menu.education": "Education",
-    "menu.experiences": "Experiences",
-    "menu.skills": "Skills",
-    "menu.certifications": "Certifications",
-    "menu.projects": "Projects"
+    "menu": {
+        "toplevel": "Pages",
+        "education": "Education",
+        "experiences": "Experiences",
+        "skills": "Skills",
+        "certifications": "Certifications",
+        "projects": "Projects"
+    }
 }

@@ -11,5 +11,5 @@ export const appRoutes: Routes = [
         ]
     },
     { path: 'notfound', component: Notfound },
-    { path: '**', redirectTo: '/notfound' }
+    { path: '**', redirectTo: 'notfound' }
 ];
