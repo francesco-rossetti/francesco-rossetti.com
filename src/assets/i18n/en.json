@@ -6,6 +6,7 @@
 
     "menu": {
         "toplevel": "Pages",
+        "home": "Home",
         "education": "Education",
         "experiences": "Experiences",
         "skills": "Skills",
@@ -67,5 +68,38 @@
         "amada-period": "Luglio 2017 - Settembre 2017",
         "amada-position": "Tecnico di Help Desk",
         "amada-description": "Assistenza tecnica e manutenzione hardware e software presso la sede di Piacenza."
+    },
+
+    "skill": {
+        "skill": "SKILLS",
+        "sub": "PROGRAMMING LANGUAGES AND FRAMEWORKS",
+
+        "angular-title": "Angular",
+        "angular-image": "angular.png",
+        "angular-description": "Self-taught. I have used Angular in the development of medium to high complexity applications. By leveraging Angular's powerful framework, I structured the application using components, facilitating code organization and maintenance. Angular's two-way data binding and declarative templates improved the interactivity and responsiveness of the application. Angular's integrated Router simplified navigation management, allowing smooth transitions between different views.",
+
+        "vue-title": "Vue.JS",
+        "vue-image": "vue.png",
+        "vue-description": "I have used Vue.js in the development of medium to high complexity single page applications (SPA). By leveraging Vue's modular structure, I organized the code into reusable components, simplifying project management and maintenance. The use of Vue's directives and data binding system made the interface dynamic and responsive, improving the user experience. Additionally, the integration of Vue Router facilitated navigation management within the application, allowing smooth transitions between different views.",
+
+        "flutter-title": "Flutter",
+        "flutter-image": "flutter.png",
+        "flutter-description": "Self-taught. A framework for writing powerful applications on Android, iOS, and Web platforms. I appreciated it for its ease of learning, modularity, and the very active community that develops all kinds of extensions to meet every need. I used it to create small to medium complexity applications, leveraging its powerful UI toolkit to create attractive and responsive user interfaces.",
+
+        "csharp-title": "C#",
+        "csharp-image": "csharp.png",
+        "csharp-description": "Programming language learned at school. I know how to apply language features such as lambda, delegates, classes, interfaces, inheritance, and integration with Entity Framework to add one or more databases within a project. I have used the .NET framework to create web applications with ASP.NET and Blazor, desktop applications with WPF and UWP, mobile applications with Xamarin, and game applications with Unity.",
+
+        "laravel-title": "Laravel",
+        "laravel-image": "laravel.png",
+        "laravel-description": "Self-taught. Used both in its frontend and backend components with the development of Web APIs. I appreciated its simplicity in database operations and at the same time its complete and secure structure in the authentication phases.",
+
+        "python-title": "Python",
+        "python-image": "python.png",
+        "python-description": "I learned Python in a university setting and know its advanced features, including lambda, decorators, classes, interfaces, and inheritance. I have experience integrating with Flask, FastAPI and SQLAlchemy for web application development and using the language for training neural networks applied to Computer Vision.",
+
+        "sql-title": "SQL",
+        "sql-image": "sql.png",
+        "sql-description": "I have used it in the following variants: MySQL, Microsoft SQL Server, and SQLite. I know the key components for writing table structures given an Entity Relationship (ER) schema as well as inserting, updating, and deleting data within them. I know how to create views and stored procedures. I have used SQL to create complex queries for extracting data from multiple tables and for creating reports."
     }
 }

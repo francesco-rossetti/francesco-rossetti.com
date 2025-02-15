@@ -1,0 +1,41 @@
+{
+    "skill": [
+        {
+            "title": "skill.angular-title",
+            "image": "skill.angular-image",
+            "description": "skill.angular-description"
+        },
+        {
+            "title": "skill.vue-title",
+            "image": "skill.vue-image",
+            "description": "skill.vue-description"
+        },
+        {
+            "title": "skill.flutter-title",
+            "image": "skill.flutter-image",
+            "description": "skill.flutter-description"
+        },
+
+        {
+            "title": "skill.python-title",
+            "image": "skill.python-image",
+            "description": "skill.python-description"
+        },
+        {
+            "title": "skill.csharp-title",
+            "image": "skill.csharp-image",
+            "description": "skill.csharp-description"
+        },
+        {
+            "title": "skill.laravel-title",
+            "image": "skill.laravel-image",
+            "description": "skill.laravel-description"
+        },
+
+        {
+            "title": "skill.sql-title",
+            "image": "skill.sql-image",
+            "description": "skill.sql-description"
+        }
+    ]
+}

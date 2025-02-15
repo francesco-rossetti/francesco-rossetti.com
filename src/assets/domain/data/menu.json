@@ -1,6 +1,10 @@
 {
     "navigationMenuItems": [
         {
+            "label": "menu.home",
+            "route": "/"
+        },
+        {
             "label": "menu.education",
             "route": "/education"
         },

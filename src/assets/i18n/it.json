@@ -6,6 +6,7 @@
 
     "menu": {
         "toplevel": "Pagine",
+        "home": "Home",
         "education": "Educazione",
         "experiences": "Esperienze",
         "skills": "Skills",
@@ -66,5 +67,38 @@
         "amada-period": "Luglio 2017 - Settembre 2017",
         "amada-position": "Tecnico di Help Desk",
         "amada-description": "Assistenza tecnica e manutenzione hardware e software presso la sede di Piacenza."
+    },
+
+    "skill": {
+        "skill": "SKILLS",
+        "sub": "LINGUAGGI DI PROGRAMMAZIONE E FRAMEWORK",
+
+        "angular-title": "Angular",
+        "angular-image": "angular.png",
+        "angular-description": "Imparato da autodidatta. Ho utilizzato Angular nello sviluppo di applicazioni di complessità medio-alta. Sfruttando il potente framework di Angular, ho strutturato l'applicazione utilizzando i componenti, facilitando l'organizzazione e la manutenzione del codice. Il two-way data binding e i template dichiarativi di Angular hanno migliorato l'interattività e la reattività dell'applicazione. Il Router integrato di Angular ha semplificato la gestione della navigazione, consentendo transizioni fluide tra le diverse viste.",
+
+        "vue-title": "Vue.JS",
+        "vue-image": "vue.png",
+        "vue-description": "Ho impiegato Vue.js nello sviluppo di applicazioni single page (SPA) di medio-alta complessità. Sfruttando la struttura modulare di Vue, ho organizzato il codice in componenti riutilizzabili, semplificando la gestione e la manutenzione del progetto. L'uso delle direttive di Vue e del sistema di binding dei dati ha reso l'interfaccia dinamica e reattiva, migliorando l'esperienza utente. Inoltre, l'integrazione di Vue Router ha facilitato la gestione della navigazione all'interno dell'applicazione, consentendo una transizione fluida tra le diverse viste.",
+
+        "flutter-title": "Flutter",
+        "flutter-image": "flutter.png",
+        "flutter-description": "Imparato da autodidatta. Framework per la scrittura di potenti applicazioni su piattaforme Android, iOS e Web. L'ho apprezzato per la sua facilità di apprendimento, la sua modularità e per la community molto attiva che sviluppa ogni tipo di estensione per soddisfare ogni esigenza. L'ho utilizzato per la creazione di applicazioni di piccola e media complessità, sfruttando la sua potente UI toolkit per creare interfacce utente accattivanti e reattive.",
+
+        "csharp-title": "C#",
+        "csharp-image": "csharp.png",
+        "csharp-description": "Linguaggio di programmazione appreso a scuola. Conosco come applicare le funzionalità del linguaggio come lambda, delegates, classi, interfacce, ereditarietà e integrazione con Entity Framework per aggiungere una o più basi di dati all'interno di un progetto. Ho utilizzato il framework .NET per creare applicazioni web con ASP.NET e Blazor, applicazioni desktop con WPF e UWP, applicazioni mobile con Xamarin e applicazioni di gioco con Unity.",
+
+        "laravel-title": "Laravel",
+        "laravel-image": "laravel.png",
+        "laravel-description": "Imparato da autodidatta. Utilizzato sia nella sua componente di frontend che nella sua componente di backend con lo sviluppo di Web API. Ho apprezzato la sua semplicità nelle operazioni di database e allo stesso tempo la sua struttura completa e sicura nelle fasi di autenticazione.",
+
+        "python-title": "Python",
+        "python-image": "python.png",
+        "python-description": "Ho appreso Python in ambito universitario e conosco le sue funzionalità avanzate, tra cui lambda, decorators, classi, interfacce ed ereditarietà. Ho esperienza nell'integrazione con Flask, FastAPI e SQLAlchemy per lo sviluppo di applicazioni web e nell'utilizzo del linguaggio per l'addestramento di reti neurali applicate alla Computer Vision.",
+
+        "sql-title": "SQL",
+        "sql-image": "sql.png",
+        "sql-description": "L'ho usato nelle seguenti varianti: MySQL, Microsoft SQL Server e SQLite. Conosco i componenti chiave per la scrittura della struttura di tabelle dato uno schema Entity Relationship (ER) nonché inserimenti, aggiornamenti ed eliminazioni di dati all'interno delle stesse. Conosco come creare views e stored procedures. Ho utilizzato SQL per creare query complesse per l'estrazione di dati da più tabelle e per la creazione di report."
     }
 }
