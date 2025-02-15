@@ -1,0 +1,37 @@
+<ng-container *transloco="let t">
+    <div class="card">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-0 text-gray-800 mt-2.5">
+            <div class="col-span-1 flex items-center justify-center md:justify-start p-6 text-center md:text-left">
+                <section class="w-full">
+                    <span class="block text-6xl font-bold mb-1 text-gray-800 dark:text-white">{{ t('home.title')
+                        }}</span>
+                    <div class="text-5xl text-primary font-bold mb-3">{{ t('home.subtitle') }}</div>
+
+                    <div class="mt-5">
+                        <p-panelmenu [model]="menu_data" [style]="{'width':'100%'}" [multiple]="true">
+                            <ng-template #item let-item>
+                                <a pRipple [routerLink]="item.route" class="flex items-center px-4 py-2 cursor-pointer group">
+                                    <i [class]="item.icon + ' text-primary group-hover:text-inherit'"></i>
+                                    <span class="ml-2">
+                                        {{ t(item.label) }}
+                                    </span>
+
+                                    @if (item.shortcut) {
+                                        <span class="ml-auto border border-surface rounded
+                                            bg-emphasis text-muted-color text-xs p-1">
+                                            {{ item.shortcut }}
+                                        </span>
+                                    }
+                                </a>
+                            </ng-template>
+                        </p-panelmenu>
+                    </div>
+                </section>
+            </div>
+            <div class="col-span-1 hidden md:block overflow-hidden">
+                <img src="domain/bg-image.jpg" alt="" class="block md:h-full ml-auto"
+                    style="clip-path: polygon(8% 0, 100% 0%, 100% 100%, 0 100%)">
+            </div>
+        </div>
+    </div>
+</ng-container>

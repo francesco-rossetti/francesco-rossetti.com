@@ -1,0 +1,35 @@
+<ng-container *transloco="let t">
+    <div class="card">
+        <div class="col-12" style="margin-top: 20px; margin-bottom: 20px;">
+            <section>
+                <div style="margin-left: 20px; width: 50%;">
+                    <span class="block text-6xl font-bold mb-1 reduceTextTitle">{{ t('education.education') }}</span>
+                    <p-divider></p-divider>
+                    <span class="text-1xl text-primary font-bold mb-3">{{ t('education.sub') }}</span>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="col-12" style="margin-top: 30px; margin-bottom: 20px;">
+        @for(edu of page_data; track edu.institution) {
+            <div style="margin-bottom: 20px;">
+                <p-card>
+                    <ng-template #title> <b>{{t(edu.institution ?? '')}}</b> </ng-template>
+                    <ng-template #subtitle> <b>{{t(edu.period ?? '')}}</b> </ng-template>
+
+                    <div style="margin-top: 1em; margin-bottom: 20px;">
+                        {{ t(edu.degree ?? '') }}
+                    </div>
+
+                    <ng-template pTemplate="footer">
+                        @if (t(edu.thesis_abstract ?? '') != ' ') {
+                            <button pButton pRipple type="button" (click)="connectTo(edu.thesis_abstract ?? '')"
+                                class="p-button-rounded p-button-success">{{ t(edu.thesis_abstract ?? '') }}</button>
+                        }
+                    </ng-template>
+                </p-card>
+            </div>
+        }
+    </div>
+</ng-container>

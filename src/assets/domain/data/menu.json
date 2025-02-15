@@ -1,0 +1,24 @@
+{
+    "navigationMenuItems": [
+        {
+            "label": "menu.education",
+            "route": "/education"
+        },
+        {
+            "label": "menu.experiences",
+            "route": "/experiences"
+        },
+        {
+            "label": "menu.skills",
+            "route": "/skills"
+        },
+        {
+            "label": "menu.certifications",
+            "route": "/certifications"
+        },
+        {
+            "label": "menu.projects",
+            "route": "/projects"
+        }
+    ]
+}
