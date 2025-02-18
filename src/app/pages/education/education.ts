@@ -8,7 +8,6 @@ import { RouterModule } from '@angular/router';
 import { EducationModel } from '../../models/education.model';
 
 @Component({
-    selector: 'app-education',
     standalone: true,
     imports: [TranslocoDirective, RouterModule, CardModule, DividerModule],
     templateUrl: './education.html'

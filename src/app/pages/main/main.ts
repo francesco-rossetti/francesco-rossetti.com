@@ -7,7 +7,6 @@ import { TranslocoDirective, TranslocoService } from '@jsverse/transloco';
 import { RouterModule } from '@angular/router';
 
 @Component({
-    selector: 'app-main',
     standalone: true,
     imports: [TranslocoDirective, RouterModule, PanelMenuModule],
     templateUrl: './main.html'

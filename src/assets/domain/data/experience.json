@@ -13,12 +13,6 @@
             "description": "experience.latitudo-description"
         },
         {
-            "title": "experience.latitudo-title",
-            "period": "experience.latitudo-period",
-            "position": "experience.latitudo-position",
-            "description": "experience.latitudo-description"
-        },
-        {
             "title": "experience.baleraortica-title",
             "period": "experience.baleraortica-period",
             "position": "experience.baleraortica-position",

@@ -100,5 +100,31 @@
         "sql-title": "SQL",
         "sql-image": "sql.png",
         "sql-description": "L'ho usato nelle seguenti varianti: MySQL, Microsoft SQL Server e SQLite. Conosco i componenti chiave per la scrittura della struttura di tabelle dato uno schema Entity Relationship (ER) nonché inserimenti, aggiornamenti ed eliminazioni di dati all'interno delle stesse. Conosco come creare views e stored procedures. Ho utilizzato SQL per creare query complesse per l'estrazione di dati da più tabelle e per la creazione di report."
+    },
+
+    "certification": {
+        "certification": "CERTIFICAZIONI",
+        "sub": "LE MIE CERTIFICAZIONI",
+        "learnmore": "Scopri di più",
+
+        "az104-title": "AZ-104: Microsoft Azure Administrator",
+        "az104-dates": "Marzo 2024",
+        "az104-url": "https://learn.microsoft.com/it-it/credentials/certifications/azure-administrator/",
+        "az104-description": "L'esame AZ-104 certifica le competenze necessarie per gestire i servizi cloud di Microsoft Azure, inclusi i principali servizi di calcolo, rete, archiviazione e sicurezza. Gli amministratori Azure sono responsabili dell'implementazione, gestione e monitoraggio delle identità, della governance, dell'archiviazione, delle risorse di calcolo virtuali e delle reti in un ambiente cloud. Questo esame verifica la capacità di configurare e gestire reti virtuali, monitorare e risolvere i problemi relativi alle risorse Azure, implementare soluzioni di backup e ripristino e gestire la sicurezza delle identità e degli accessi.",
+
+        "az900-title": "AZ-900: Microsoft Azure Fundamentals",
+        "az900-dates": "Marzo 2023",
+        "az900-url": "https://learn.microsoft.com/it-it/credentials/certifications/azure-fundamentals/",
+        "az900-description": "L'esame AZ-900 certifica le conoscenze fondamentali dei servizi cloud di Microsoft Azure. È rivolto a chiunque desideri iniziare a lavorare con il cloud di Microsoft. L'esame copre concetti di base del cloud, i principali servizi di Azure, i principi di sicurezza, privacy, conformità e fiducia, nonché i prezzi e il supporto di Azure. Questo esame verifica la comprensione dei concetti di cloud computing, dei modelli di distribuzione e dei servizi offerti da Azure.",
+
+        "sc900-title": "SC-900: Microsoft Security, Compliance, and Identity Fundamentals",
+        "sc900-dates": "Novembre 2021",
+        "sc900-url": "https://learn.microsoft.com/it-it/credentials/certifications/security-compliance-and-identity-fundamentals",
+        "sc900-description": "L'esame SC-900 certifica le conoscenze fondamentali della sicurezza, della conformità e dell'identità in Microsoft 365 e Azure. È rivolto a chiunque desideri iniziare a lavorare con la sicurezza, la conformità e l'identità in cloud, indipendentemente dal ruolo tecnico. L'esame copre concetti di base della sicurezza, della conformità e dell'identità, nonché i principi di sicurezza, privacy, conformità e fiducia. Questo esame verifica la comprensione dei concetti di sicurezza, conformità e identità in cloud.",
+
+        "ai900-title": "AI-900: Microsoft Azure AI Fundamentals",
+        "ai900-dates": "Aprile 2021",
+        "ai900-url": "https://learn.microsoft.com/it-it/credentials/certifications/azure-ai-fundamentals/",
+        "ai900-description": "L'esame AI-900 certifica le conoscenze fondamentali dell'intelligenza artificiale (AI) e del machine learning (ML) in Microsoft Azure. È rivolto a chiunque desideri iniziare a lavorare con l'AI e il ML in Azure. L'esame copre concetti di base dell'AI e del ML, i principali servizi di Azure per l'AI e il ML, i principi di sicurezza, privacy, conformità e fiducia, nonché i prezzi e il supporto di Azure. Questo esame verifica la comprensione dei concetti di AI e ML in cloud."
     }
 }

@@ -8,7 +8,6 @@ import { RouterModule } from '@angular/router';
 import { SkillModel } from '../../models/skill.model';
 
 @Component({
-    selector: 'app-skills',
     standalone: true,
     imports: [TranslocoDirective, RouterModule, CardModule, DividerModule],
     templateUrl: './skill.html'

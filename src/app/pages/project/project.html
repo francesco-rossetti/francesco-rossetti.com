@@ -1,0 +1,33 @@
+<ng-container *transloco="let t">
+    <div class="card p-4">
+        <div class="col-12 my-5">
+            <section>
+                <div class="ml-5 w-1/2">
+                    <span class="block text-6xl font-bold mb-1 rexpceTextTitle">{{ t('certification.certification') }}</span>
+                    <p-divider></p-divider>
+                    <span class="text-xl text-primary font-bold mb-3">{{ t('certification.sub') }}</span>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="grid gap-4 grid-cols-1 md:grid-cols-3">
+        @for(cert of page_data; track cert.title) {
+            <p-card class="p-card">
+                <ng-template #title> <b>{{t(cert.title)}}</b> </ng-template>
+                <ng-template #subtitle> <b>{{t(cert.dates)}}</b> </ng-template>
+
+                <div class="mt-4 mb-5">
+                    {{ t(cert.description) }}
+                </div>
+
+                <ng-template pTemplate="footer">
+                    @if (t(cert.url) != ' ') {
+                        <button pButton pRipple type="button" (click)="connectTo(t(cert.url))"
+                            class="p-button-rounded p-button-success">{{ t('certification.learnmore') }}</button>
+                    }
+                </ng-template>
+            </p-card>
+        }
+    </div>
+</ng-container>

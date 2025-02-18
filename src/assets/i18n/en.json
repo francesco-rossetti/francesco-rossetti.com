@@ -101,5 +101,31 @@
         "sql-title": "SQL",
         "sql-image": "sql.png",
         "sql-description": "I have used it in the following variants: MySQL, Microsoft SQL Server, and SQLite. I know the key components for writing table structures given an Entity Relationship (ER) schema as well as inserting, updating, and deleting data within them. I know how to create views and stored procedures. I have used SQL to create complex queries for extracting data from multiple tables and for creating reports."
+    },
+
+    "certification": {
+        "certification": "CERTIFICATIONS",
+        "sub": "MY CERTIFICATIONS",
+        "learnmore": "Learn more",
+
+        "certification.az104-title": "AZ-104: Microsoft Azure Administrator",
+        "certification.az104-dates": "March 2024",
+        "certification.az104-url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/",
+        "certification.az104-description": "The AZ-104 exam certifies the skills required to manage Microsoft Azure cloud services, including core compute, network, storage, and security services. Azure administrators are responsible for implementing, managing, and monitoring identities, governance, storage, virtual compute resources, and networks in a cloud environment. This exam verifies the ability to configure and manage virtual networks, monitor and troubleshoot Azure resources, implement backup and recovery solutions, and manage identity and access security.",
+
+        "certification.az900-title": "AZ-900: Microsoft Azure Fundamentals",
+        "certification.az900-dates": "March 2023",
+        "certification.az900-url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/",
+        "certification.az900-description": "The AZ-900 exam certifies fundamental knowledge of Microsoft Azure cloud services. It is aimed at anyone who wants to start working with Microsoft's cloud. The exam covers basic cloud concepts, core Azure services, security, privacy, compliance, and trust principles, as well as Azure pricing and support. This exam verifies the understanding of cloud computing concepts, deployment models, and the services offered by Azure.",
+
+        "certification.sc900-title": "SC-900: Microsoft Security, Compliance, and Identity Fundamentals",
+        "certification.sc900-dates": "November 2021",
+        "certification.sc900-url": "https://learn.microsoft.com/en-us/credentials/certifications/security-compliance-and-identity-fundamentals",
+        "certification.sc900-description": "The SC-900 exam certifies fundamental knowledge of security, compliance, and identity in Microsoft 365 and Azure. It is aimed at anyone who wants to start working with security, compliance, and identity in the cloud, regardless of technical role. The exam covers basic concepts of security, compliance, and identity, as well as security, privacy, compliance, and trust principles. This exam verifies the understanding of security, compliance, and identity concepts in the cloud.",
+
+        "certification.ai900-title": "AI-900: Microsoft Azure AI Fundamentals",
+        "certification.ai900-dates": "April 2021",
+        "certification.ai900-url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/",
+        "certification.ai900-description": "The AI-900 exam certifies fundamental knowledge of artificial intelligence (AI) and machine learning (ML) in Microsoft Azure. It is aimed at anyone who wants to start working with AI and ML in Azure. The exam covers basic concepts of AI and ML, core Azure services for AI and ML, security, privacy, compliance, and trust principles, as well as Azure pricing and support. This exam verifies the understanding of AI and ML concepts in the cloud."
     }
 }
