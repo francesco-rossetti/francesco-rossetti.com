@@ -2,10 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import { DividerModule } from 'primeng/divider';
 import { CardModule } from 'primeng/card';
 import { AppDataService } from '../../layout/service/app.data.service';
-import { JSON_DATA_CERTIFICATION, LOGO_PATH } from '../../app.constants';
+import { JSON_DATA_PROJECT, LOGO_PATH } from '../../app.constants';
 import { TranslocoDirective } from '@jsverse/transloco';
 import { RouterModule } from '@angular/router';
-import { CertificationModel } from '../../models/certification.model';
+import { ProjectModel } from '../../models/project.model';
 
 @Component({
     standalone: true,
@@ -13,7 +13,7 @@ import { CertificationModel } from '../../models/certification.model';
     templateUrl: './project.html'
 })
 export class Project implements OnInit {
-    page_data: CertificationModel[] = [];
+    page_data: ProjectModel[] = [];
     LOGO_PATH = LOGO_PATH.valueOf();
 
     constructor (
@@ -21,8 +21,8 @@ export class Project implements OnInit {
     ) {}
 
     async ngOnInit(): Promise<void> {
-        const data = await this.appDataService.loadTranslatedJSONData(JSON_DATA_CERTIFICATION);
-        this.page_data = data.certification;
+        const data = await this.appDataService.loadTranslatedJSONData(JSON_DATA_PROJECT);
+        this.page_data = data.project;
     }
 
     connectTo(siteURL: string): void {

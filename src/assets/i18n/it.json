@@ -126,5 +126,37 @@
         "ai900-dates": "Aprile 2021",
         "ai900-url": "https://learn.microsoft.com/it-it/credentials/certifications/azure-ai-fundamentals/",
         "ai900-description": "L'esame AI-900 certifica le conoscenze fondamentali dell'intelligenza artificiale (AI) e del machine learning (ML) in Microsoft Azure. È rivolto a chiunque desideri iniziare a lavorare con l'AI e il ML in Azure. L'esame copre concetti di base dell'AI e del ML, i principali servizi di Azure per l'AI e il ML, i principi di sicurezza, privacy, conformità e fiducia, nonché i prezzi e il supporto di Azure. Questo esame verifica la comprensione dei concetti di AI e ML in cloud."
+    },
+
+    "project": {
+        "project": "PROGETTI",
+        "sub": "I MIEI PROGETTI",
+
+        "project-collecchio-name": "Collecchio",
+        "project-collecchio-description": "Attività di realizzazione di un'applicazione mobile sia per iOS che per Android. L'applicazione consente agli abitanti della Città di Collecchio di segnalare all'amministrazione pericoli ai danni di persone affette da disabilità, affinché intervenga per sistemare il problema. Abbiamo utilizzato il framework Flutter e vista la necessità di una categorizzazione automatica dei rischi, la visione artificiale è stata implementata utilizzando un modello TensorFlow Lite. Il progetto è stato avviato attraverso un bando in collaborazione con l'Università di Parma.",
+        "project-collecchio-url": " ",
+        "project-collecchio-technology-1": "Flutter",
+        "project-collecchio-technology-2": "TensorFlow",
+        "project-collecchio-technology-3": "SQLite",
+
+        "project-piacenza-ar-name": "Piacenza AR",
+        "project-piacenza-ar-description": "Progetto sviluppato in ambiente scolastico. L'applicazione è stata progettata per i turisti. Attraverso l'utilizzo di Google Earth siamo riusciti ad ottenere modelli 3D dei più importanti monumenti della città. Sfruttando poi Unity, Vuforia e una mappa appositamente creata, abbiamo potuto mostrare agli utenti i modelli precedentemente creati e alcune note storiche dei monumenti in questione.",
+        "project-piacenza-ar-url": " ",
+        "project-piacenza-ar-technology-1": "Unity",
+        "project-piacenza-ar-technology-2": "Vuforia",
+        "project-piacenza-ar-technology-3": "Google Earth",
+
+        "project-armatamente-20-name": "Armatamente 2.0",
+        "project-armatamente-20-description": "Progetto sviluppato in ambiente scolastico per il bando lanciato dalla Fondazione San Paolo di Torino nel corso del 2017. Questo progetto è partito perché si è verificata la necessità di recuperare il vecchio sito web del progetto \"ARMATAMENTE\" che è andato perduto.",
+        "project-armatamente-20-url": " ",
+        "project-armatamente-20-technology-1": "HTML",
+        "project-armatamente-20-technology-2": "JavaScript",
+        "project-armatamente-20-technology-3": "CSS",
+
+        "project-museo-3d-name": "Museo 3D",
+        "project-museo-3d-description": "Progetto sviluppato in ambito scolastico per il bando \"I linguaggi della Contemporaneità\" lanciato dalla Fondazione San Paolo di Torino. Questo progetto è stato definito \"un progetto di straordinaria originalità per gentile concessione di una serie di innovazioni informatiche al servizio di una solida e documentata argomentazione storiografica\". Questo progetto ha avuto anche riconoscimenti internazionali tra cui la rete internazionale EUSTORY. Il progetto consiste nella realizzazione di un ambiente 3D completamente percorribile nel quale, attraverso interazioni, è possible visualizzare contenuti storici relativi al bando sopracitato. Per quanto riguarda la parte tecnica si è fatto uso di Unity come framework e C# come linguaggio di programmazione.",
+        "project-museo-3d-url": " ",
+        "project-museo-3d-technology-1": "Unity",
+        "project-museo-3d-technology-2": "C#"
     }
 }

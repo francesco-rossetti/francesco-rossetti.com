@@ -127,5 +127,37 @@
         "certification.ai900-dates": "April 2021",
         "certification.ai900-url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/",
         "certification.ai900-description": "The AI-900 exam certifies fundamental knowledge of artificial intelligence (AI) and machine learning (ML) in Microsoft Azure. It is aimed at anyone who wants to start working with AI and ML in Azure. The exam covers basic concepts of AI and ML, core Azure services for AI and ML, security, privacy, compliance, and trust principles, as well as Azure pricing and support. This exam verifies the understanding of AI and ML concepts in the cloud."
+    },
+
+    "project": {
+        "project": "PROJECTS",
+        "sub": "MY PROJECTS",
+
+        "project-collecchio-name": "Collecchio",
+        "project-collecchio-description": "Development of a mobile application for both iOS and Android. The application allows the residents of the City of Collecchio to report hazards affecting people with disabilities to the administration, so that they can intervene to fix the problem. We used the Flutter framework and, given the need for automatic risk categorization, computer vision was implemented using a TensorFlow Lite model. The project was initiated through a grant in collaboration with the University of Parma.",
+        "project-collecchio-url": " ",
+        "project-collecchio-technology-1": "Flutter",
+        "project-collecchio-technology-2": "TensorFlow",
+        "project-collecchio-technology-3": "SQLite",
+
+        "project-piacenza-ar-name": "Piacenza AR",
+        "project-piacenza-ar-description": "Project developed in a school environment. The application was designed for tourists. By using Google Earth, we were able to obtain 3D models of the most important monuments in the city. Then, using Unity, Vuforia, and a specially created map, we were able to show users the previously created models and some historical notes about the monuments in question.",
+        "project-piacenza-ar-url": " ",
+        "project-piacenza-ar-technology-1": "Unity",
+        "project-piacenza-ar-technology-2": "Vuforia",
+        "project-piacenza-ar-technology-3": "Google Earth",
+
+        "project-armatamente-20-name": "Armatamente 2.0",
+        "project-armatamente-20-description": "Project developed in a school environment for the grant launched by the San Paolo Foundation of Turin in 2017. This project started because there was a need to recover the old website of the \"ARMATAMENTE\" project that was lost.",
+        "project-armatamente-20-url": " ",
+        "project-armatamente-20-technology-1": "HTML",
+        "project-armatamente-20-technology-2": "JavaScript",
+        "project-armatamente-20-technology-3": "CSS",
+
+        "project-museo-3d-name": "3D Museum",
+        "project-museo-3d-description": "Project developed in a school environment for the \"The Languages of Contemporary\" grant launched by the San Paolo Foundation of Turin. This project was described as \"a project of extraordinary originality thanks to a series of IT innovations in the service of a solid and documented historiographical argument.\" This project also received international recognition, including from the EUSTORY international network. The project consists of creating a fully walkable 3D environment in which, through interactions, it is possible to view historical content related to the aforementioned grant. As for the technical part, Unity was used as the framework and C# as the programming language.",
+        "project-museo-3d-url": " ",
+        "project-museo-3d-technology-1": "Unity",
+        "project-museo-3d-technology-2": "C#"
     }
 }
