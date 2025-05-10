@@ -24,8 +24,8 @@
 
                     <ng-template pTemplate="footer">
                         @if (t(edu.thesis_abstract ?? '') != ' ') {
-                            <button pButton pRipple type="button" (click)="connectTo(edu.thesis_abstract ?? '')"
-                                class="p-button-rounded p-button-success">{{ t(edu.thesis_abstract ?? '') }}</button>
+                            <p-button type="button" (click)="connectTo(edu.thesis_abstract ?? '')" severity="success"
+                                class="p-button-rounded p-button-success">{{ t(edu.thesis_abstract ?? '') }}</p-button>
                         }
                     </ng-template>
                 </p-card>

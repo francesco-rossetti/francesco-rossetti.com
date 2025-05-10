@@ -6,10 +6,11 @@ import { JSON_DATA_PROJECT, LOGO_PATH } from '../../app.constants';
 import { TranslocoDirective } from '@jsverse/transloco';
 import { RouterModule } from '@angular/router';
 import { ProjectModel } from '../../models/project.model';
+import { ButtonModule } from 'primeng/button';
 
 @Component({
     standalone: true,
-    imports: [TranslocoDirective, RouterModule, CardModule, DividerModule],
+    imports: [TranslocoDirective, RouterModule, ButtonModule, CardModule, DividerModule],
     templateUrl: './project.html'
 })
 export class Project implements OnInit {

@@ -1,4 +1,14 @@
 {
+    "availableLanguages": [
+        {
+            "label": "Italiano",
+            "code": "it"
+        },
+        {
+            "label": "English",
+            "code": "en"
+        }
+    ],
     "navigationMenuItems": [
         {
             "label": "menu.home",

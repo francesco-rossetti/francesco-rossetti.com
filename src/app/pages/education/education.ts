@@ -6,10 +6,11 @@ import { JSON_DATA_EDUCATION } from '../../app.constants';
 import { TranslocoDirective, TranslocoService } from '@jsverse/transloco';
 import { RouterModule } from '@angular/router';
 import { EducationModel } from '../../models/education.model';
+import { ButtonModule } from 'primeng/button';
 
 @Component({
     standalone: true,
-    imports: [TranslocoDirective, RouterModule, CardModule, DividerModule],
+    imports: [TranslocoDirective, RouterModule, ButtonModule, CardModule, DividerModule],
     templateUrl: './education.html'
 })
 export class Education implements OnInit {

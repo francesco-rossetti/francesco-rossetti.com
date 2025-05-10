@@ -23,8 +23,8 @@
 
                 <ng-template pTemplate="footer">
                     @if (t(proj.url) != ' ') {
-                        <button pButton pRipple type="button" (click)="connectTo(t(proj.url))"
-                            class="p-button-rounded p-button-success">{{ t('project.learnmore') }}</button>
+                        <p-button (click)="connectTo(t(proj.url))" severity="success"
+                            class="p-button-rounded p-button-success">{{ t('project.learnmore') }}</p-button>
                     }
                 </ng-template>
             </p-card>

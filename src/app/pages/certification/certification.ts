@@ -6,10 +6,11 @@ import { JSON_DATA_CERTIFICATION, JSON_DATA_SKILL, LOGO_PATH } from '../../app.c
 import { TranslocoDirective } from '@jsverse/transloco';
 import { RouterModule } from '@angular/router';
 import { CertificationModel } from '../../models/certification.model';
+import { ButtonModule } from 'primeng/button';
 
 @Component({
     standalone: true,
-    imports: [TranslocoDirective, RouterModule, CardModule, DividerModule],
+    imports: [TranslocoDirective, RouterModule, ButtonModule, CardModule, DividerModule],
     templateUrl: './certification.html'
 })
 export class Certification implements OnInit {
