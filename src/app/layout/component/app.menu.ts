@@ -20,14 +20,20 @@ import { JSON_DATA_MENU } from '../../app.constants';
     </ul> `
 })
 export class AppMenu {
-    constructor(
-        private appDataService: AppDataService,
-        private transloco: TranslocoPipe
-    ) {}
-
     model: MenuItem[] = [];
 
+    constructor(
+        private appDataService: AppDataService,
+        private transloco: TranslocoPipe,
+        private translocoService: TranslocoService
+    ) {}
+
     ngOnInit() {
+        // Subscribe to language changes
+        this.translocoService.langChanges$.subscribe(() => {
+            this.loadTranslations();
+        });
+
         this.loadTranslations();
     }
 

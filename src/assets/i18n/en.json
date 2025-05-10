@@ -14,60 +14,59 @@
         "projects": "Projects"
     },
 
-
     "education": {
         "education": "EDUCATION",
-        "sub": "MY ACADEMIC BACKGROUND",
+        "sub": "MY EDUCATIONAL JOURNEY",
 
-        "unipr_institution": "Università degli Studi di Parma - Parma (PR)",
+        "unipr_institution": "University of Parma - Parma (PR)",
         "unipr_degree": "BACHELOR'S DEGREE IN COMPUTER ENGINEERING",
         "unipr_period": "2018 - 2023",
-        "unipr_thesis_abstract": "",
+        "unipr_thesis_abstract": " ",
 
         "isii_institution": "ISII G. Marconi - Piacenza (PC)",
-        "isii_degree": "HIGH SCHOOL DIPLOMA IN COMPUTER SCIENCE",
+        "isii_degree": "DIPLOMA WITH QUALIFICATION OF TECHNICAL LEADER IN COMPUTER SCIENCE",
         "isii_period": "2013 - 2018",
-        "isii_thesis_abstract": ""
+        "isii_thesis_abstract": " "
     },
 
     "experience": {
-        "experience": "ESPERIENZE",
-        "sub": "IL MIO PERCORSO LAVORATIVO",
+        "experience": "EXPERIENCES",
+        "sub": "MY PROFESSIONAL JOURNEY",
 
         "ePol-title": "e-Pol S.R.L.",
-        "ePol-period": "Ottobre 2024 - Presente",
-        "ePol-position": "Sviluppatore Full Stack",
-        "ePol-description": "Sviluppo di applicazioni web per la gestione di processi aziendali.",
+        "ePol-period": "October 2024 - Present",
+        "ePol-position": "Full Stack Developer",
+        "ePol-description": "Development of web applications for business process management.",
 
         "latitudo-title": "Latitudo S.R.L.",
-        "latitudo-period": "Aprile 2023 - Settembre 2024",
-        "latitudo-position": "Sviluppatore Full Stack",
-        "latitudo-description": "Attività di sviluppo/rifacimento di applicazioni WEB utilizzando lo stack Vue.JS e .NET 6. Sviluppo e manutenzione di script Python. Nel 2021 durante il tirocinio Universitario è stata creata una vista personalizzata per la suite Microsoft Power BI utilizzando le API fornite e React.",
+        "latitudo-period": "April 2023 - September 2024",
+        "latitudo-position": "Full Stack Developer",
+        "latitudo-description": "Development/refactoring of WEB applications using Vue.JS and .NET 6 stack. Development and maintenance of Python scripts. In 2021, during my University internship, I created a custom view for Microsoft Power BI suite using the provided APIs and React.",
 
         "baleraortica-title": "LA BALERA DELL'ORTICA",
-        "baleraortica-period": "Marzo 2022 - Settembre 2022",
-        "baleraortica-position": "Sviluppatore Full Stack",
-        "baleraortica-description": "La collaborazione prevedeva la creazione di una piattaforma di prenotazione alle lezioni di ballo dell'azienda.",
+        "baleraortica-period": "March 2022 - September 2022",
+        "baleraortica-position": "Full Stack Developer",
+        "baleraortica-description": "The collaboration involved creating a booking platform for the company's dance classes.",
 
         "brainfarm-title": "BRAINFARM Soc. Coop.",
-        "brainfarm-period": "Giugno 2021 - Ottobre 2021",
-        "brainfarm-position": "Tecnico di Help Desk",
-        "brainfarm-description": "Assistenza tecnica e manutenzione hardware e software presso la Provincia di Piacenza.",
+        "brainfarm-period": "June 2021 - October 2021",
+        "brainfarm-position": "Help Desk Technician",
+        "brainfarm-description": "Technical assistance and hardware and software maintenance at the Province of Piacenza.",
 
         "studiolarosadance-title": "STUDIO LAROSA DANCE",
-        "studiolarosadance-period": "Dicembre 2019 - Settembre 2020",
-        "studiolarosadance-position": "Sviluppatore Full Stack",
-        "studiolarosadance-description": "Attività di creazione di un sito web per un'impresa sportiva. Il progetto è stato realizzato tramite il tema WordPress, Avada e i plugin grafici. Al progetto originale è stato aggiunto in un secondo tempo una piattaforma di prenotazione alle lezioni di ballo dell'azienda. Il progetto è stato svolto come attività secondaria durante gli studi universitari.",
+        "studiolarosadance-period": "December 2019 - September 2020",
+        "studiolarosadance-position": "Full Stack Developer",
+        "studiolarosadance-description": "Website creation for a sports business. The project was made using the WordPress theme Avada and graphic plugins. A dance class booking platform was later added to the original project. The project was carried out as a secondary activity during university studies.",
 
         "hes-title": "H&S QUALITÀ NEL SOFTWARE S.P.A.",
-        "hes-period": "Luglio 2018 - Settembre 2018",
-        "hes-position": "SVILUPPATORE FULL STACK",
-        "hes-description": "Attività di creazione di piattaforme CRM personalizzate per il workflow di vari clienti. Sono stati utilizzati diversi linguaggi tra cui C# nella sua componente web (ASP.NET con EXT.NET), mobile (XAMARIN) e SQL.",
+        "hes-period": "July 2018 - September 2018",
+        "hes-position": "FULL STACK DEVELOPER",
+        "hes-description": "Creation of customized CRM platforms for various clients' workflows. Several languages were used including C# in its web component (ASP.NET with EXT.NET), mobile (XAMARIN) and SQL.",
 
         "amada-title": "AMADA S.P.A.",
-        "amada-period": "Luglio 2017 - Settembre 2017",
-        "amada-position": "Tecnico di Help Desk",
-        "amada-description": "Assistenza tecnica e manutenzione hardware e software presso la sede di Piacenza."
+        "amada-period": "July 2017 - September 2017",
+        "amada-position": "Help Desk Technician",
+        "amada-description": "Technical assistance and hardware and software maintenance at the Piacenza headquarters."
     },
 
     "skill": {
@@ -76,31 +75,31 @@
 
         "angular-title": "Angular",
         "angular-image": "angular.png",
-        "angular-description": "Self-taught. I have used Angular in the development of medium to high complexity applications. By leveraging Angular's powerful framework, I structured the application using components, facilitating code organization and maintenance. Angular's two-way data binding and declarative templates improved the interactivity and responsiveness of the application. Angular's integrated Router simplified navigation management, allowing smooth transitions between different views.",
+        "angular-description": "Self-taught. I used Angular in the development of medium-high complexity applications. Leveraging Angular's powerful framework, I structured the application using components, facilitating code organization and maintenance. Angular's two-way data binding and declarative templates improved the application's interactivity and responsiveness. Angular's integrated Router simplified navigation management, allowing smooth transitions between different views.",
 
         "vue-title": "Vue.JS",
         "vue-image": "vue.png",
-        "vue-description": "I have used Vue.js in the development of medium to high complexity single page applications (SPA). By leveraging Vue's modular structure, I organized the code into reusable components, simplifying project management and maintenance. The use of Vue's directives and data binding system made the interface dynamic and responsive, improving the user experience. Additionally, the integration of Vue Router facilitated navigation management within the application, allowing smooth transitions between different views.",
+        "vue-description": "I used Vue.js in the development of medium-high complexity single page applications (SPAs). Taking advantage of Vue's modular structure, I organized the code into reusable components, simplifying project management and maintenance. Using Vue directives and data binding system made the interface dynamic and reactive, improving user experience. Additionally, the integration of Vue Router facilitated navigation management within the application, allowing smooth transitions between different views.",
 
         "flutter-title": "Flutter",
         "flutter-image": "flutter.png",
-        "flutter-description": "Self-taught. A framework for writing powerful applications on Android, iOS, and Web platforms. I appreciated it for its ease of learning, modularity, and the very active community that develops all kinds of extensions to meet every need. I used it to create small to medium complexity applications, leveraging its powerful UI toolkit to create attractive and responsive user interfaces.",
+        "flutter-description": "Self-taught. Framework for writing powerful applications on Android, iOS, and Web platforms. I appreciated it for its ease of learning, its modularity, and for the very active community that develops all kinds of extensions to meet every need. I used it for creating small and medium complexity applications, leveraging its powerful UI toolkit to create attractive and responsive user interfaces.",
 
         "csharp-title": "C#",
         "csharp-image": "csharp.png",
-        "csharp-description": "Programming language learned at school. I know how to apply language features such as lambda, delegates, classes, interfaces, inheritance, and integration with Entity Framework to add one or more databases within a project. I have used the .NET framework to create web applications with ASP.NET and Blazor, desktop applications with WPF and UWP, mobile applications with Xamarin, and game applications with Unity.",
+        "csharp-description": "Programming language learned at school. I know how to apply language features such as lambdas, delegates, classes, interfaces, inheritance, and integration with Entity Framework to add one or more databases within a project. I used the .NET framework to create web applications with ASP.NET and Blazor, desktop applications with WPF and UWP, mobile applications with Xamarin, and game applications with Unity.",
 
         "laravel-title": "Laravel",
         "laravel-image": "laravel.png",
-        "laravel-description": "Self-taught. Used both in its frontend and backend components with the development of Web APIs. I appreciated its simplicity in database operations and at the same time its complete and secure structure in the authentication phases.",
+        "laravel-description": "Self-taught. Used both in its frontend component and in its backend component with Web API development. I appreciated its simplicity in database operations and at the same time its complete and secure structure in authentication phases.",
 
         "python-title": "Python",
         "python-image": "python.png",
-        "python-description": "I learned Python in a university setting and know its advanced features, including lambda, decorators, classes, interfaces, and inheritance. I have experience integrating with Flask, FastAPI and SQLAlchemy for web application development and using the language for training neural networks applied to Computer Vision.",
+        "python-description": "I learned Python in an academic context and know its advanced features, including lambdas, decorators, classes, interfaces, and inheritance. I have experience integrating with Flask, FastAPI, and SQLAlchemy for web application development and using the language for training neural networks applied to Computer Vision.",
 
         "sql-title": "SQL",
         "sql-image": "sql.png",
-        "sql-description": "I have used it in the following variants: MySQL, Microsoft SQL Server, and SQLite. I know the key components for writing table structures given an Entity Relationship (ER) schema as well as inserting, updating, and deleting data within them. I know how to create views and stored procedures. I have used SQL to create complex queries for extracting data from multiple tables and for creating reports."
+        "sql-description": "I've used it in the following variants: MySQL, Microsoft SQL Server, and SQLite. I know the key components for writing table structures given an Entity Relationship (ER) schema as well as data insertions, updates, and deletions within them. I know how to create views and stored procedures. I used SQL to create complex queries for extracting data from multiple tables and for creating reports."
     },
 
     "certification": {
@@ -108,54 +107,54 @@
         "sub": "MY CERTIFICATIONS",
         "learnmore": "Learn more",
 
-        "certification.az104-title": "AZ-104: Microsoft Azure Administrator",
-        "certification.az104-dates": "March 2024",
-        "certification.az104-url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/",
-        "certification.az104-description": "The AZ-104 exam certifies the skills required to manage Microsoft Azure cloud services, including core compute, network, storage, and security services. Azure administrators are responsible for implementing, managing, and monitoring identities, governance, storage, virtual compute resources, and networks in a cloud environment. This exam verifies the ability to configure and manage virtual networks, monitor and troubleshoot Azure resources, implement backup and recovery solutions, and manage identity and access security.",
+        "az104-title": "AZ-104: Microsoft Azure Administrator",
+        "az104-dates": "March 2024",
+        "az104-url": "https://learn.microsoft.com/it-it/credentials/certifications/azure-administrator/",
+        "az104-description": "The AZ-104 exam certifies the skills needed to manage Microsoft Azure cloud services, including key computing, networking, storage, and security services. Azure administrators are responsible for implementing, managing, and monitoring identities, governance, storage, virtual computing resources, and networks in a cloud environment. This exam tests the ability to configure and manage virtual networks, monitor and troubleshoot Azure resources, implement backup and recovery solutions, and manage identity and access security.",
 
-        "certification.az900-title": "AZ-900: Microsoft Azure Fundamentals",
-        "certification.az900-dates": "March 2023",
-        "certification.az900-url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/",
-        "certification.az900-description": "The AZ-900 exam certifies fundamental knowledge of Microsoft Azure cloud services. It is aimed at anyone who wants to start working with Microsoft's cloud. The exam covers basic cloud concepts, core Azure services, security, privacy, compliance, and trust principles, as well as Azure pricing and support. This exam verifies the understanding of cloud computing concepts, deployment models, and the services offered by Azure.",
+        "az900-title": "AZ-900: Microsoft Azure Fundamentals",
+        "az900-dates": "March 2023",
+        "az900-url": "https://learn.microsoft.com/it-it/credentials/certifications/azure-fundamentals/",
+        "az900-description": "The AZ-900 exam certifies fundamental knowledge of Microsoft Azure cloud services. It is aimed at anyone who wants to start working with Microsoft's cloud. The exam covers cloud basics, key Azure services, security principles, privacy, compliance and trust, as well as Azure pricing and support. This exam tests the understanding of cloud computing concepts, deployment models, and services offered by Azure.",
 
-        "certification.sc900-title": "SC-900: Microsoft Security, Compliance, and Identity Fundamentals",
-        "certification.sc900-dates": "November 2021",
-        "certification.sc900-url": "https://learn.microsoft.com/en-us/credentials/certifications/security-compliance-and-identity-fundamentals",
-        "certification.sc900-description": "The SC-900 exam certifies fundamental knowledge of security, compliance, and identity in Microsoft 365 and Azure. It is aimed at anyone who wants to start working with security, compliance, and identity in the cloud, regardless of technical role. The exam covers basic concepts of security, compliance, and identity, as well as security, privacy, compliance, and trust principles. This exam verifies the understanding of security, compliance, and identity concepts in the cloud.",
+        "sc900-title": "SC-900: Microsoft Security, Compliance, and Identity Fundamentals",
+        "sc900-dates": "November 2021",
+        "sc900-url": "https://learn.microsoft.com/it-it/credentials/certifications/security-compliance-and-identity-fundamentals",
+        "sc900-description": "The SC-900 exam certifies fundamental knowledge of security, compliance, and identity in Microsoft 365 and Azure. It is aimed at anyone who wants to start working with security, compliance, and identity in the cloud, regardless of technical role. The exam covers basic concepts of security, compliance, and identity, as well as principles of security, privacy, compliance, and trust. This exam tests the understanding of security, compliance, and identity concepts in the cloud.",
 
-        "certification.ai900-title": "AI-900: Microsoft Azure AI Fundamentals",
-        "certification.ai900-dates": "April 2021",
-        "certification.ai900-url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/",
-        "certification.ai900-description": "The AI-900 exam certifies fundamental knowledge of artificial intelligence (AI) and machine learning (ML) in Microsoft Azure. It is aimed at anyone who wants to start working with AI and ML in Azure. The exam covers basic concepts of AI and ML, core Azure services for AI and ML, security, privacy, compliance, and trust principles, as well as Azure pricing and support. This exam verifies the understanding of AI and ML concepts in the cloud."
+        "ai900-title": "AI-900: Microsoft Azure AI Fundamentals",
+        "ai900-dates": "April 2021",
+        "ai900-url": "https://learn.microsoft.com/it-it/credentials/certifications/azure-ai-fundamentals/",
+        "ai900-description": "The AI-900 exam certifies fundamental knowledge of Artificial Intelligence (AI) and Machine Learning (ML) in Microsoft Azure. It is aimed at anyone who wants to start working with AI and ML in Azure. The exam covers basic concepts of AI and ML, key Azure services for AI and ML, principles of security, privacy, compliance and trust, as well as Azure pricing and support. This exam tests the understanding of AI and ML concepts in the cloud."
     },
 
     "project": {
         "project": "PROJECTS",
         "sub": "MY PROJECTS",
 
-        "project-collecchio-name": "Collecchio",
-        "project-collecchio-description": "Development of a mobile application for both iOS and Android. The application allows the residents of the City of Collecchio to report hazards affecting people with disabilities to the administration, so that they can intervene to fix the problem. We used the Flutter framework and, given the need for automatic risk categorization, computer vision was implemented using a TensorFlow Lite model. The project was initiated through a grant in collaboration with the University of Parma.",
+        "project-collecchio-name": "Barriere di Collecchio",
+        "project-collecchio-description": "Mobile application development for both iOS and Android. The application allows residents of the City of Collecchio to report dangers affecting people with disabilities to the administration, so it can intervene to fix the problem. We used the Flutter framework and, given the need for automatic risk categorization, artificial vision was implemented using a TensorFlow Lite model. The project was launched through a tender in collaboration with the University of Parma.",
         "project-collecchio-url": " ",
         "project-collecchio-technology-1": "Flutter",
         "project-collecchio-technology-2": "TensorFlow",
         "project-collecchio-technology-3": "SQLite",
 
         "project-piacenza-ar-name": "Piacenza AR",
-        "project-piacenza-ar-description": "Project developed in a school environment. The application was designed for tourists. By using Google Earth, we were able to obtain 3D models of the most important monuments in the city. Then, using Unity, Vuforia, and a specially created map, we were able to show users the previously created models and some historical notes about the monuments in question.",
+        "project-piacenza-ar-description": "Project developed in a school environment. The application was designed for tourists. Through the use of Google Earth, we were able to obtain 3D models of the city's most important monuments. Then, using Unity, Vuforia, and a specially created map, we could show users the previously created models and some historical notes of the monuments in question.",
         "project-piacenza-ar-url": " ",
         "project-piacenza-ar-technology-1": "Unity",
         "project-piacenza-ar-technology-2": "Vuforia",
         "project-piacenza-ar-technology-3": "Google Earth",
 
         "project-armatamente-20-name": "Armatamente 2.0",
-        "project-armatamente-20-description": "Project developed in a school environment for the grant launched by the San Paolo Foundation of Turin in 2017. This project started because there was a need to recover the old website of the \"ARMATAMENTE\" project that was lost.",
+        "project-armatamente-20-description": "Project developed in a school environment for the tender launched by the San Paolo Foundation of Turin in 2017. This project started because there was a need to recover the old website of the \"ARMATAMENTE\" project that was lost.",
         "project-armatamente-20-url": " ",
         "project-armatamente-20-technology-1": "HTML",
         "project-armatamente-20-technology-2": "JavaScript",
         "project-armatamente-20-technology-3": "CSS",
 
-        "project-museo-3d-name": "3D Museum",
-        "project-museo-3d-description": "Project developed in a school environment for the \"The Languages of Contemporary\" grant launched by the San Paolo Foundation of Turin. This project was described as \"a project of extraordinary originality thanks to a series of IT innovations in the service of a solid and documented historiographical argument.\" This project also received international recognition, including from the EUSTORY international network. The project consists of creating a fully walkable 3D environment in which, through interactions, it is possible to view historical content related to the aforementioned grant. As for the technical part, Unity was used as the framework and C# as the programming language.",
+        "project-museo-3d-name": "Museum 3D",
+        "project-museo-3d-description": "Project developed in a school environment for the \"Languages of Contemporaneity\" tender launched by the San Paolo Foundation of Turin. This project was defined as \"a project of extraordinary originality by kind permission of a series of IT innovations at the service of solid and documented historiographical argumentation\". This project has also received international recognition including the international EUSTORY network. The project consists in the creation of a fully traversable 3D environment in which, through interactions, it is possible to view historical content related to the aforementioned tender. As for the technical part, Unity was used as a framework and C# as a programming language.",
         "project-museo-3d-url": " ",
         "project-museo-3d-technology-1": "Unity",
         "project-museo-3d-technology-2": "C#"

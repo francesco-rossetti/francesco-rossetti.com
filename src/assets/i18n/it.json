@@ -132,7 +132,7 @@
         "project": "PROGETTI",
         "sub": "I MIEI PROGETTI",
 
-        "project-collecchio-name": "Collecchio",
+        "project-collecchio-name": "Barriere di Collecchio",
         "project-collecchio-description": "Attività di realizzazione di un'applicazione mobile sia per iOS che per Android. L'applicazione consente agli abitanti della Città di Collecchio di segnalare all'amministrazione pericoli ai danni di persone affette da disabilità, affinché intervenga per sistemare il problema. Abbiamo utilizzato il framework Flutter e vista la necessità di una categorizzazione automatica dei rischi, la visione artificiale è stata implementata utilizzando un modello TensorFlow Lite. Il progetto è stato avviato attraverso un bando in collaborazione con l'Università di Parma.",
         "project-collecchio-url": " ",
         "project-collecchio-technology-1": "Flutter",
