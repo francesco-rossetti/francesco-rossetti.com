@@ -3,7 +3,7 @@
     "version": 1,
     "newProjectRoot": "projects",
     "projects": {
-        "francescorossetti-ng": {
+        "francescorossetti": {
             "projectType": "application",
             "schematics": {
                 "@schematics/angular:component": {
@@ -17,7 +17,7 @@
                 "build": {
                     "builder": "@angular-devkit/build-angular:application",
                     "options": {
-                        "outputPath": "dist/francescorossetti-ng",
+                        "outputPath": "dist/francescorossetti",
                         "index": "src/index.html",
                         "browser": "src/main.ts",
                         "polyfills": [
@@ -32,24 +32,12 @@
                             }
                         ],
                         "styles": [
-                            "src/styles.scss"
+                            "src/assets/styles.scss"
                         ],
                         "scripts": []
                     },
                     "configurations": {
                         "production": {
-                            "budgets": [
-                                {
-                                    "type": "initial",
-                                    "maximumWarning": "1mb",
-                                    "maximumError": "5mb"
-                                },
-                                {
-                                    "type": "anyComponentStyle",
-                                    "maximumWarning": "2kb",
-                                    "maximumError": "4kb"
-                                }
-                            ],
                             "outputHashing": "all"
                         },
                         "development": {
@@ -64,10 +52,10 @@
                     "builder": "@angular-devkit/build-angular:dev-server",
                     "configurations": {
                         "production": {
-                            "buildTarget": "francescorossetti-ng:build:production"
+                            "buildTarget": "francescorossetti:build:production"
                         },
                         "development": {
-                            "buildTarget": "francescorossetti-ng:build:development"
+                            "buildTarget": "francescorossetti:build:development"
                         }
                     },
                     "defaultConfiguration": "development"
@@ -91,7 +79,7 @@
                             }
                         ],
                         "styles": [
-                            "src/styles.scss"
+                            "src/assets/styles.scss"
                         ],
                         "scripts": []
                     }
